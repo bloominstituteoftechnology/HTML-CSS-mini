@@ -1,0 +1,32 @@
+@media screen and (max-width: 480px) {
+ 
+  }
+
+.headBlock {
+  box-sizing: border-box;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.boxOneBlock {
+box-sizing: border-box;
+border: 1px solid black;
+width: 50%;
+height: 100%;
+padding: 20px;
+float: left;
+display: inline-block;
+}
+
+.boxTwoBlock {
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+  float: right;
+  display: inline-block;
+}
