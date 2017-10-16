@@ -22,6 +22,7 @@ html, body {
 }
 .page__card p {
     padding: 20px;
+    clear:both;
 }
 .page__card-title {
     padding-left: 20px;
