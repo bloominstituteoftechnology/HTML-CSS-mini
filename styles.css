@@ -10,15 +10,27 @@
   border: 1px solid black;
   display: inline-block;
 }
+.box {
+  display: flex;
+  
+}
 
 .boxOneBlock {
-box-sizing: border-box;
-border: 1px solid black;
-width: 50%;
-height: 100%;
-padding: 20px;
-float: left;
-display: inline-block;
+  flex-direction: left;
+  border: 1px solid black;
+  padding: 20px;
+}
+.boxTwoBlock {
+  flex-direction: right;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+/* .boxOneBlock {
+  display: flex;
+  flex-direction: left;
+  align-content: left;
+  width: auto;
 }
 
 .boxTwoBlock {
@@ -29,4 +41,4 @@ display: inline-block;
   padding: 20px;
   float: right;
   display: inline-block;
-}
+} */
