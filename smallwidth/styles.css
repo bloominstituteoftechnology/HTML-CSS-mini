@@ -18,3 +18,8 @@
   .Box--bottom {
     vertical-align: bottom;
   }
+
+  .Section {
+    display: flex;
+    flex-direction: column;
+  }

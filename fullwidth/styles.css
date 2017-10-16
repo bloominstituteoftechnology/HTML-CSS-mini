@@ -18,3 +18,8 @@
   .Box--right {
     float: right;
   }
+
+  .Section {
+    display: flex;
+    flex-direction: row;
+  }
