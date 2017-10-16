@@ -13,10 +13,10 @@ You're provided with an index.html file and a styles.css file to begin with, but
 
 <a src="https://docs.google.com/document/d/1db_gVHonRIAjozSZ7NFsqghJ5B7gdGWgRF0c-3oIGdA/edit?usp=sharing"><strong>Box Model Study Guide</strong></a>
 
-<img src="./mockups/full_width.png" width="800" />
+<img src="./mockups/full_width.png"/>
 
 ## Extra Credit
   * Make your Box Model solution responsive to browser resizing using media queries.
   <a src="https://docs.google.com/document/d/15ucW3PUI3mBPq85gUF_TrVmm9W3HM8LZ6VxhZKZdDqE/edit?usp=sharing"><strong>Media Query Min & Max Width Quick Reference</strong></a>
-<img src="./mockups/mid_width.png" width="800" />
-<img src="./mockups/small_width.png" width="800" />
+<img src="./mockups/mid_width.png" style="width: 500px; display: inline-block;" />
+<img src="./mockups/small_width.png" style="width: 300px; display: inline-block;" />
