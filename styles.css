@@ -1,5 +1,9 @@
-@media screen and (max-width: 480px) {
- 
+@media screen and (max-width: 300px) {
+
+ .box {
+  flex-direction: column;
+ }
+
   }
 
 .headBlock {
@@ -8,11 +12,10 @@
   height: 80px;
   text-align: center;
   border: 1px solid black;
-  display: inline-block;
+  
 }
 .box {
-  display: flex;
-  
+  display: flex; 
 }
 
 .boxOneBlock {
@@ -20,11 +23,20 @@
   border: 1px solid black;
   padding: 20px;
 }
+
 .boxTwoBlock {
   flex-direction: right;
   border: 1px solid black;
   padding: 20px;
 }
+
+.newBlock {
+  display:flex;
+  justify-content: flex-end;
+  border: 1px solid black;
+  width: 40px;
+}
+
 
 /* .boxOneBlock {
   display: flex;
