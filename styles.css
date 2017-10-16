@@ -1,0 +1,25 @@
+.Box {
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    display: inline-block;
+}
+
+.Box {
+    box-sizing: border-box;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+}
+
+.Box--fullWidthBox {
+    width: 100%;
+}
+  
+.Box--halfWidthBox {
+    width: 50%;
+    height: 150px;
+    float: left;
+}
