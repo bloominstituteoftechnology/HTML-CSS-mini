@@ -1,0 +1,20 @@
+.Box {
+    box-sizing: border-box;
+    width: 50%;
+    hieght: 300px;
+    padding: 20px;
+    margin: 0;
+    display: inline-block;
+  }
+  
+  .Box--top {
+    vertical-align: top;
+  }
+  
+  .Box--bordered {
+    display: inline-block;
+  }
+  
+  .Box--bottom {
+    vertical-align: bottom;
+  }
