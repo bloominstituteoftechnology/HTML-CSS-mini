@@ -20,4 +20,6 @@
   
 .Box--halfWidthBox {
     width: 50%;
+    height: 150px;
+    float: left;
 }
