@@ -1,0 +1,28 @@
+.my--Header {
+    text-align: center;
+    border-color: black;
+    border-width: 5px; 
+    border-style: solid;
+    margin: 0;
+  }
+  .custom{ 
+   display: inline;
+   float: right;
+   padding: 5px;
+   border-width: 15px; 
+   background-color:grey;
+   position:absolute;
+   top: 115px;
+   left: 884px;
+   
+  }
+  .my__Box {
+    display: inline-block;
+    float:left;
+    margin: 0px;
+    border-color: black;
+    border-width: 5px; 
+    border-style: solid;
+    padding: 15px;
+    width: 912px;
+  }
