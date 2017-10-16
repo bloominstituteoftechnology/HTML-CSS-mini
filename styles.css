@@ -1,0 +1,56 @@
+@media screen and (max-width: 300px) {
+
+ .box {
+  flex-direction: column;
+ }
+
+  }
+
+.headBlock {
+  box-sizing: border-box;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  border: 1px solid black;
+  
+}
+.box {
+  display: flex; 
+}
+
+.boxOneBlock {
+  flex-direction: left;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.boxTwoBlock {
+  flex-direction: right;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.newBlock {
+  display:flex;
+  justify-content: flex-end;
+  border: 1px solid black;
+  width: 40px;
+}
+
+
+/* .boxOneBlock {
+  display: flex;
+  flex-direction: left;
+  align-content: left;
+  width: auto;
+}
+
+.boxTwoBlock {
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+  float: right;
+  display: inline-block;
+} */
