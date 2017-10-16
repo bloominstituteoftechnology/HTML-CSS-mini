@@ -27,11 +27,13 @@
    display: flex;
    flex-direction: row;
    width: 1800px;
+   margin:auto;
   }
   
   .container2{
    display:flex;
    flex-direction: row;
    width: 1800px;
+   margin:auto;
   
   }
