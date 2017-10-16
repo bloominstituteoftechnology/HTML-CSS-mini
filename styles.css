@@ -1,0 +1,14 @@
+.box {
+    width: 50%;
+    box-sizing: border-box;
+    display: inline-block;
+    border: solid 2px;
+    padding: 5px;
+}
+
+h1 {
+    border: solid 2px;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+}
