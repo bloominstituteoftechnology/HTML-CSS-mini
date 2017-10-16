@@ -1,0 +1,19 @@
+h1{
+	text-align: center;
+	border: solid;
+	display: inline-block;
+	width: 800px;
+	margin: 2px;
+}
+
+p{
+	border: solid;
+	display: inline-block;
+	margin: 0px;
+	width: 400px;
+}
+
+body{
+	text-align: center;
+	display: block;
+}
