@@ -1,0 +1,25 @@
+.Box {
+    box-sizing: border-box;
+    width: 50%;
+    hieght: 300px;
+    padding: 20px;
+    margin: 0;
+    display: inline-block;
+  }
+  
+  .Box--left {
+    float: left;
+  }
+  
+  .Box--bordered {
+    display: inline-block;
+  }
+  
+  .Box--right {
+    float: right;
+  }
+
+  .Section {
+    display: flex;
+    flex-direction: row;
+  }
