@@ -1,0 +1,22 @@
+.box {
+  display: in-line-block;
+  padding: 10px;
+}
+
+.box--fullsize {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.box--halfsize {
+  width: 50%;
+  border: 1px solid black;
+}
+
+.box--left {
+  float: left;
+}
+
+.box--right {
+  float: right;
+}
