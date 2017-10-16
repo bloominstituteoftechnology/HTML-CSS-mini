@@ -1,0 +1,37 @@
+body {
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0px;
+}
+
+.header {
+width: 50%;
+min-width: 300px;
+max-width: 624px;
+}
+
+.placeholder {
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+  
+}
+
+.container {
+  border-style: solid;
+  border-width: 5px;
+  display: inline-block;
+  padding: 5px;
+  
+}
+
+.stamp {
+  position: absolute;
+  width: 50px;
+  padding: 5px;
+  background-color: rgb(156, 156, 156);
+  color: black;
+  margin-top: 10px;
+  margin-left: 245px;
+  float: right;
+}
