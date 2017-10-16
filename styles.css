@@ -1,0 +1,30 @@
+
+h1 {
+    box-sizing: border-box;
+    width: 300px auto;
+    border: 1px solid black;
+    padding: 25px;
+    margin: 0px;
+    text-align: center;
+    display: block;
+  }
+div {
+    box-sizing : content-box;
+    width: 300px;
+    border: 1px solid black;
+    padding: 25px;
+    margin: 0px;
+    text-align: left;
+    display: block;
+    float: left;
+}
+div2 {
+  box-sizing : content-box;
+   width:  300px;
+    border: 1px solid black;
+    padding: 25px;
+    margin: 0px;
+    text-align: left;
+    display: block;
+    float: right;
+}
