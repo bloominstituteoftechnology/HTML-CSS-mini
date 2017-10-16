@@ -13,6 +13,14 @@
 .content {
   display: flex;
 }
+@media screen and (max-width: 600px) {
+  .content {
+    flex-direction: column;
+  }
+  .bordered-right{
+    border-left: 5px solid black;
+  }
+}
 .new-tag {
   float: right;
   margin-top: 20px;
@@ -22,4 +30,7 @@
 p, h2 {
   padding: 20px;
   margin: 0;
+}
+.flexbox, .header {
+  min-width: 300px;
 }
