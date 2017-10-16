@@ -17,6 +17,11 @@ You're provided with an index.html file and a styles.css file to begin with, but
 
 ## Extra Credit
   * Make your Box Model solution responsive to browser resizing using media queries.
-  [Media Query Min & Max Width Quick Reference](https://docs.google.com/document/d/15ucW3PUI3mBPq85gUF_TrVmm9W3HM8LZ6VxhZKZdDqE/edit?usp=sharing)
-<img src="./mockups/mid_width.png" width="500"/>
-<img src="./mockups/small_width.png" width="500" />
+  * [Media Query Min & Max Width Quick Reference](https://docs.google.com/document/d/15ucW3PUI3mBPq85gUF_TrVmm9W3HM8LZ6VxhZKZdDqE/edit?usp=sharing)
+
+<table>
+  <tr>
+    <td><img src="./mockups/mid_width.png" width="500"/></td>
+    <td><img src="./mockups/small_width.png" width="500" /></td>
+  </tr>
+</table>
