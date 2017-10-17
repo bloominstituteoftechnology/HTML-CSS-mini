@@ -1,0 +1,20 @@
+.Container {
+	outline: 3px solid #000;
+}
+.Container__header {
+	text-align: center;
+	padding-top: 1rem;
+}
+.Section__wrapper {
+	display: flex;
+	width: 100%;
+}
+.Section {width: 50%; border-top: 3px solid #000;}
+.Section:nth-of-type(1) {border-right:  3px solid #000;}
+.Section > h2, .Section > p {padding: 24px; padding-top: 0;}
+.Section--after>h2:after {
+	content: 'new';
+	position: relative;
+	left: 20%;
+	background-color: #ffbbaa;
+}
