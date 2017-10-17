@@ -1,0 +1,39 @@
+.my--Header {
+  text-align: center;
+  border-color: black;
+  border-width: 5px; 
+  border-style: solid;
+   width: 1800px;
+}
+.custom{ 
+ float: right;
+ padding: 5px;
+ border-width: 15px; 
+ background-color:grey;
+ position: relative;
+ top: -25px;
+ left: 15px;
+ 
+}
+.my__Box {
+  margin: 0px;
+  border-color: black;
+  border-width: 5px; 
+  border-style: solid;
+  padding: 15px;
+}
+
+.container{
+ display: flex;
+ flex-direction: row;
+ width: 1800px;
+ margin: auto;
+}
+
+.container2{
+ display: flex;
+ flex-direction: row;
+ width: 1800px;
+ margin: auto;
+
+}
