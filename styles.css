@@ -1,0 +1,30 @@
+.section {
+  display: flex;
+  width: 1000px;
+  flex-direction: column;
+  align-content: flex-start;  
+}
+
+.box {
+  /* box-sizing: border-box; */
+  width: 100%;
+  height: 20px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 20px;
+  margin: auto;
+}
+
+.box--container {
+  display: flex;
+  flex-direction: row;
+}
+
+.box--fullWidthBox {
+  width: 100%;
+  text-align: center;  
+}
+
+.box--halfWidthBox {
+  width: 50%;
+}
