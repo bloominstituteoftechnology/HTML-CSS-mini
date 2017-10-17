@@ -1,0 +1,26 @@
+
+
+
+.Header {
+    width: auto;
+    height: auto;
+    padding: auto;
+    margin: auto;
+    border: 5px solid black;
+    text-align: center;
+  }
+  
+  .Section {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+  }
+  
+  .Box {
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin: auto;
+    border: 5px solid black;
+  }
+  
