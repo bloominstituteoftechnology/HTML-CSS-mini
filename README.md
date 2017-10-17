@@ -1,4 +1,4 @@
-g**HTML/CSS mini**
+**HTML/CSS mini**
 ----------------------------------
 
 Topics:  
