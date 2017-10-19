@@ -12,8 +12,8 @@ body {
 }
 
 .boxSw {
+	z-index: 2;
 	clear:left;
-	background-color:orange;
 	-webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -36,7 +36,13 @@ body {
 	font-weight: 800;
 	width: 100%;
 }
-
+.t0z {
+	position: absolute;
+	font-size: 1.05em;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-weight: 800;
+	width: 100%;
+}
 .t1 {
 	color: white;
 	font-size: 1.05em;
@@ -45,9 +51,16 @@ body {
 }
 
 .t2 {
-	text-align:left;
+	text-align: left;
 }
 
+.p1{
+	position:relative;
+	z-index: 5;
+	margin-bottom: 0px;
+	margin-top: 24px;
+	text-align: left;	
+}
 
 .newDiv {
 	display: inline;
@@ -56,7 +69,6 @@ body {
 	padding-top: 0px;
 	padding-bottom: 0px;
 	background-color: darkgray;
-	margin-right: -14px;
 	float: right;
 }
 
@@ -67,10 +79,6 @@ body {
 
 .bord2p5 {
 	border: 2.5px solid black;	
-}
-
-.pad5 {
-	padding: 5px;	
 }
 
 .rect {
@@ -98,6 +106,7 @@ body {
 	margin-right: auto;
 }
 
+
 .x4bords {
 	border-style:none;
 }
@@ -113,7 +122,6 @@ body {
 .xRbord {
 	border-right-width: 0px;
 }
-
 
 
 .table {
