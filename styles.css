@@ -1,0 +1,153 @@
+body {
+	min-width: 300px;
+	margin: 0px;
+	position: relative;
+	text-color: black;
+}
+
+.boxS {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.boxSw {
+	z-index: 2;
+	clear:left;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+}
+.boxSw2 {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.h0 {
+	font-size: 2em;
+	text-align: center;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-weight: 800;
+}
+.t0 {
+	font-size: 1.05em;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-weight: 800;
+	width: 100%;
+}
+.t0z {
+	position: absolute;
+	font-size: 1.05em;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-weight: 800;
+	width: 100%;
+}
+.t1 {
+	color: white;
+	font-size: 1.05em;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-weight: 800;
+}
+
+.t2 {
+	text-align: left;
+}
+
+.p1{
+	position:relative;
+	z-index: 5;
+	margin-bottom: 0px;
+	margin-top: 24px;
+	text-align: left;	
+}
+
+.newDiv {
+	display: inline;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: darkgray;
+	float: right;
+}
+
+.divSpacer {
+	width: 100%;
+	height: 30px;
+}
+
+.bord2p5 {
+	border: 2.5px solid black;	
+}
+
+.rect {
+	box-shadow: black;
+	margin: 0 auto;
+}
+
+.inL {
+}
+
+.flL {
+	float: left;
+	margin-left: 0px;
+	margin-right: auto;
+	max-width: 50%;
+}
+.flR {
+	float: right;
+	margin-left: auto;
+	margin-right: 0px;
+}
+.flC {
+	box-shadow: black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.x4bords {
+	border-style:none;
+}
+.xTbord {
+	border-top-width: 0px;
+}
+.xBbord {
+	border-bottom-width: 0px;
+}
+.xLbord {
+	border-left-width: 0px;
+}
+.xRbord {
+	border-right-width: 0px;
+}
+
+
+.table {
+    display: table;
+	border-collapse: collapse;
+}
+.row {
+    display: table-row;
+}
+.cell {
+    display: table-cell;
+}
+
+.disI {
+	display:inline;
+}
+.disN {
+	display: none;
+}
+.visH {
+	visibility: hidden;
+}
+.visV {
+	visibility: visible;
+}
+
+.nW {
+	white-space: nowrap;
+}
