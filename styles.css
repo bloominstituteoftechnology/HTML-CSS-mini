@@ -1,6 +1,38 @@
-.container {
-    font-family : Arial, Helvetica, sans-serif
+body {
+	box-sizing: border-box;
+	min-width: 300px;
+    margin: 0;
+    font-size: 100%;
+    background-color: #fff;
+    color: #000000;
 }
-.header-text {
-    text-align: center;
+
+.article {
+    float: left;
+    width: 50%;
+    margin: 0,2rem;
+    padding:0, 2rem;
+    border: 2px, black; 
+}
+.article-title {
+	font-size: 1.5em;
+	font-weight: bold;
+    margin-bottom: 15px;
+}
+.article-text {
+    font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.header {
+	text-align: center;
+	font-size: 2.5em;
+	font-weight: bold;
+}
+.section-left{
+    float: left;
+}
+.section-right{
+    float: right;
 }
