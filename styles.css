@@ -1,10 +1,27 @@
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: grey;
+body {
+  margin: 0;
+  border: 0;
+}
+.section-full {
+  box-sizing: border-box;
   display: inline-block;
-  margin: 20px;
-  padding: 10px;
+  width: 100%;
+  text-align: center;
+  background-color: grey;
+  margin: 0;
   border: 5px solid black;
-  word-wrap: wrap;
+}
+
+.section-left {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 50%;
+  border: 1px solid black;
+}
+
+.section-right {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 50%;
+  border: 1px solid black;
 }
