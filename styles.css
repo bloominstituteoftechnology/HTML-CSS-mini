@@ -4,7 +4,7 @@ body {
 
 .section {
   text-align: center;
-  padding: 10px 5px 5px 5px;
+  padding: 10px 5px 5px;
   margin: -10px;
 }
 
@@ -25,12 +25,17 @@ body {
 }
 
 #new {
-    position: relative;
-    float: right;
-    margin-top: 10px;
-    text-align: center;
-    background-color: gray;    border-radius: 3px 0 0 3px;
-    padding: 12px;
+  position: relative;
+  float: right;
+  margin-top: 10px;
+  text-align: center;
+  background-color: gray;
+  border-radius: 3px 0 0 3px;
+  padding: 12px;
 }
 
-
+@media (max-width: 480px) {
+  .container {
+    flex-direction: column;
+  }
+}
