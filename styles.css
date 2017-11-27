@@ -35,3 +35,11 @@ p {
     text-align: center;
     background-color: rgb(128, 128, 128);
 }
+@media (max-width: 600px) {
+    .section--half {
+        width: 100%;
+        text-align: left;
+    } 
+}
+  
+  
