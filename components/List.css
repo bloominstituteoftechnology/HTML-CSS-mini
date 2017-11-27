@@ -1,0 +1,15 @@
+.List {
+  list-style-type: none;
+}
+
+.List--horizontal .List__item {
+  display: inline-block;
+}
+
+.List--red-first-item :first-child {
+  color: red;
+}
+
+.List__item {
+  padding-bottom: 5px;
+}
