@@ -1,25 +1,49 @@
 .Section {
   box-sizing: border-box;
-  display: inline-block;
   background: gray;
   padding: 20px;
+  border: solid black;
+}
+
+.Container {
+  display: flex;
+  flex-direction: row;
 }
 
 .Section--full {
+  order: 0;
   width: 100%;
   text-align: center;
-  margin: 0;
-  border: 2 2 0 2 solid black;
+  border-width: 2px 2px 0px 2px;
 }
 
-.Section--half {
+.Section--left {
+  order: 0;
   width: 50%;
+  border-width: 2px 0px 2px 2px;
+  position: relative;
 }
 
-.Section p {
-  color: red;
+.Section--right {
+  order: 1;
+  width: 50%;
+  border-width: 2px;
 }
 
-.Section--red-text .section__text {
-  color: red;
+.Section__flag {
+  background: tomato;
+  position: absolute; 
+  right: 0;
+  top: 30px;
+  padding: 10px;
+}
+
+@media (max-width: 480px) {
+  .Section--half {
+    width: 100%;
+  }
+
+  .Container {
+    flex-wrap: wrap;
+  }
 }
