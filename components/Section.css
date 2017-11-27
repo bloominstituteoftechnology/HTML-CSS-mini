@@ -4,6 +4,13 @@
     background-color: white;
     color: black;
 }
+.Section--flex {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
 .Section--full {
     width: 100%;
     text-align: center;
@@ -19,6 +26,11 @@
     padding: .5em;  
     border-top: .25em solid black;
 }
+.Section--item-flex {
+    width: 50%;
+    text-align: left;
+    border: .25em solid black;
+}
 .Section--divide {
     border-left: .25em solid black;
 }
@@ -28,6 +40,6 @@
     position: relative;
     background-color: grey;
     padding: 0 .2em 0 .2em;
-    margin-right: 0;
+    margin-right: 
     width: auto;
 }
