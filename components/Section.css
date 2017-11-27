@@ -1,0 +1,33 @@
+.Section {
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: white;
+    color: black;
+}
+.Section--full {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    border: .25em solid black;
+}
+.Section--new {
+    display: inline-block;
+}
+.Section--half {
+    width: 50%;
+    text-align: left;
+    padding: .5em;  
+    border-top: .25em solid black;
+}
+.Section--divide {
+    border-left: .25em solid black;
+}
+.Alert {
+    text-align: right;
+    float: right;
+    position: relative;
+    background-color: grey;
+    padding: 0 .2em 0 .2em;
+    margin-right: 0;
+    width: auto;
+}

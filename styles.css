@@ -1,23 +1,12 @@
+@import './components/Section.css';
+@import './components/List.css';
+
 body {
     margin: 0;
 }
-.section {
-    box-sizing: border-box;
-    display: inline-block;
-}
-.wrapper {
-    width: 100%;
-    text-align: center;
-    background-color: rgb(80, 80, 82);
-    color: rgb(41, 43, 49);
-    margin: 0;
-}
-.section-half {
-    width: 45%;
-    background-color: rgb(12, 12, 22);
-    color: rgb(80, 80, 82);
-    border: .25em solid  rgb(41, 43, 49);
-    text-align: left;
-    margin-bottom: 2em;
-    padding: .5em;  
+.alert {
+    text-align: right;
+    float: right;
+    background-color: grey;
+    width: auto;
 }
