@@ -1,0 +1,39 @@
+body {
+  margin: 0 10px 0 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.section, .section-left, .section-right  {
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.section-left, .section-right {
+  display: inline-block;
+  width: 50%;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+}
+
+.section-left {
+  border-left: 5px solid black;
+}
+
+.section-right {
+  float: right;
+}
+
+.new {
+  position: relative;
+  float: right;
+  right: -20px;
+  color: white;
+  text-align: center;
+  background-color: rgb(100, 45, 0);
+  border-radius: 3px 0 0 3px;
+  padding: 12px;
+}
