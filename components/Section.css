@@ -1,27 +1,31 @@
 .Section {
-  display: inline-block;
+  flex-wrap: wrap;
   box-sizing: border-box;
   border: 2px solid #000;
 } 
+.Section--flex-container {
+  display: flex;
+}
 .Section--padding {  
   padding: 20px;
 }
 
 .Section--full {
-  width: 100%;
+  flex-basis: 100%;
   text-align: center;
   margin: 0;
 }
+.Section--half {
+  width: 50%;
+  flex-basis: 50%;
+}
+
 .Section__h1 {
   font-size: 36px;
 }
 .Section__h2 {
   font-size: 24px;
   margin-bottom: 20px;
-}
-
-.Section--half {
-  width: 50%;
 }
 
 .Section__badge {

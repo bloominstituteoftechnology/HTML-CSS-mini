@@ -7,7 +7,7 @@ h1, h2, body {
 @media (max-width: 600px) {
 
   .Section--half {
-    width: 100%;
+    flex-basis: 100%;
   }
 
 }
