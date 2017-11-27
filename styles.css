@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+.section {
+  text-align: center;
+  padding: 10px 5px 5px 5px;
+  margin: -10px;
+}
+
+.section--bold {
+  font-weight: bold;
+}
+
+.section--no-right-border {
+  border-right: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.container__section {
+  border-style: solid;
+}
+
+#new {
+    position: relative;
+    float: right;
+    margin-top: 10px;
+    text-align: center;
+    background-color: gray;    border-radius: 3px 0 0 3px;
+    padding: 12px;
+}
+
+
