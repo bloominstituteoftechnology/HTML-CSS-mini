@@ -1,0 +1,10 @@
+@import './components/Section.css';
+@import './components/List.css';
+body {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
