@@ -1,0 +1,24 @@
+.Section {
+  box-sizing: border-box;
+  display: inline-block;
+  background: gray;
+  padding: 20px;
+}
+
+.Section--full {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+.Section--half {
+  width: 50%;
+}
+
+.Section p {
+  color: red;
+}
+
+.Section--red-text .section__text {
+  color: red;
+}
