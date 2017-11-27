@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.section {
+background-color: gray;
+border: 5px;
+}
+
+.section--full   {
+  /*box-sizing: border-box; */
+  /*display: inline-block;*/
+  flex-basis: 100%;
+  /*width: 100%;*/
+  text-align: center;
+}
+
+.section--left {
+  box-sizing: border-box;
+/*  display: inline-block; */
+  width: 50%;
+}
+
+.section--right {
+  box-sizing: border-box;
+  /*display: inline-block;*/
+  width: 50%;
+}
