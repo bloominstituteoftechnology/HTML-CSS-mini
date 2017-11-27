@@ -1,0 +1,13 @@
+@import './components/Section.css';
+
+h1, h2, body {
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+
+  .Section--half {
+    width: 100%;
+  }
+
+}
