@@ -1,0 +1,15 @@
+.list {
+    list-style-type: none;
+  }
+  
+  .list--horizontal .list__item {
+    display: inline-block;
+  }
+  
+  .list--red-first-item :first-child {
+    color: red;
+  }
+  
+  .list__item {
+    padding-bottom: 5px;
+  }
