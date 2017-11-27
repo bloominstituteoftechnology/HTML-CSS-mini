@@ -1,24 +1,4 @@
 body {
     margin:0;
 }
-.section--full{
-    box-sizing: border-box;
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-    background-color: grey;
-}
 
-.section--left{
-    width:50%;
-    box-sizing: border-box;
-    display: inline-block;
-    background-color: gray;
-}
-
-.section--right{
-    width:50%;
-    box-sizing: border-box;
-    display: inline-block;
-    background-color: gray;
-}
