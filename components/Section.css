@@ -43,6 +43,14 @@
     width: 100%;
   }
 
+  .Section--left {
+    border: 2px solid black;
+  }
+
+  .Section--right {
+    border-top: none;
+  }
+
   .Container {
     flex-wrap: wrap;
   }
