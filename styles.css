@@ -8,28 +8,18 @@ body {
     box-sizing: border-box;
     width: 100%;
     padding: 20px;
-    justify-content: space-evenly;
-    flex-basis: 0;
     text-align: auto;
-
 }
 
 .Section--full {
-
-  
+    flex-wrap: nowrap;
     flex-direction: auto;
     text-align: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border: 1px solid black;
-    width: 100%;
-    justify-content: center;
    
 }
 
 .Section--half {
-    width: 100%;
+    width: 50%;
     flex-wrap: wrap;
     padding: 10px;
     border: solid 1px;
@@ -38,14 +28,12 @@ body {
 
 .Section__new1 {
     display: inline-flex;
-    flex: flex-grow;
-    width: 50%;
+    width: 100%;
    
 }
 Section__new2 {
     display: inline-flex;
-    flex: flex-shrink;
-    width: 50%;
+    width: 100%;
 }
 
  @media (min-width: 600px) {
