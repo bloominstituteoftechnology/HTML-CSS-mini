@@ -1,0 +1,33 @@
+.Section {
+  display: flex;
+  border: solid;
+}
+
+.Section--container {
+  border: none;
+}
+
+.Section--full {
+  justify-content: center;
+  border-bottom-style: none;
+}
+
+.Section--half {
+  flex-direction: column;
+  padding: 0 20px 0 20px;
+}
+
+.Section--right {
+  border-left-style: none;
+}
+
+.Section__header {
+  float: left;
+}
+
+.Section__new-tag {
+  background: gray;
+  padding: 5px 5px;
+  float: right;
+  margin: 10px -20px 0 0;
+}
