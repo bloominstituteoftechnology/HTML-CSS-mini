@@ -15,6 +15,7 @@ body {
 
 h1 {
   text-align: center;
+ 
 
 }
 
@@ -34,6 +35,10 @@ h1 {
 /* Modifiers ***************************************************************************************************/
 .section--left {
   border-right: 0;
+}
+
+.section--header {
+  border-bottom: 0;
 }
 
 .section--bold {
