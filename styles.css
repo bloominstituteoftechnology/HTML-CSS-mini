@@ -10,15 +10,16 @@ body {
   padding: 0;
 }
 
-.bordered {
-  border: .2rem solid black;
+.border {
+  border: .1rem solid black;
 }
 
-.border--lb {
-  border-right: none;
+.border--no-top {
   border-top: none;
 }
 
-.border--rlb {
-  border-top: none;
+@media all and (min-width: 600px) {
+  .border--no-right {
+    border-right: none;
+  }
 }
