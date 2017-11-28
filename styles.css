@@ -16,6 +16,7 @@ body {
 }
 .Section__flag{
   margin-left: auto;
+  height: 30px;
   background-color: grey;
   font-weight: bold;
 }
