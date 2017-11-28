@@ -1,0 +1,66 @@
+@import '.components/Section.css';
+@import '.components/List.css';
+
+body{
+    margin: 0; 
+}
+.Section {
+    box-sizing: border-box;
+    display: inline-block;
+    background: gray;
+    padding: 20px;
+}
+.Section--full {
+    width: 100%; 
+    text-align: center; 
+    margin: 0;
+}
+.Section--half {
+    width: 50%; 
+}
+.Section p {
+    color:red;
+}
+
+.Section--red-text .Section__text {
+    color: red;
+}
+.List {
+    list-style-type: none;
+}
+.List--horizontal .List___item
+display: inline-block;
+}
+
+.List--red-first-item : first-child {
+    color: red; 
+}
+
+.List_item {
+    padding-bottom: 5px;
+}
+.heading {
+    box-sizing: border-box; 
+    display: inline-block; 
+    width: 50%; 
+    margin: 0 10 0 0; 
+}
+h2 {
+    padding-left: 10px;
+p }
+    padding-left: 10px; 
+    padding-right: 10px; 
+}
+.heading_newTab {
+    padding: 5px; 
+    width: 50px; 
+    float: right; 
+    text-align: center; 
+    background-color: rgb(128, 128, 128);
+}
+@media (max-width: 600px) {
+    .section--half {
+        width: 100%; 
+        text-align: left;
+    }
+}
