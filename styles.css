@@ -1,0 +1,44 @@
+@media screen and (min-width: 600px) {
+	.section {
+		box-sizing: border-box;
+		border-width: 3px;
+		border-style: solid;
+		border-color: black;
+		padding: 10px;
+	}
+
+	.section--full {
+		text-align: center;
+		width: 100%;
+		border-bottom-width: 1.5px;
+	}
+
+	.section--left {
+		width: 50%;
+		float: left;
+		border-top-width: 1.5px;
+		border-right-width: 1.5px;
+		position: relative;
+	}
+
+	#new__tag {
+		position: absolute;
+		background-color: grey;
+		right: 0px;
+		text-align: right;
+		font-weight: bold;
+		font-size: 1.0em;
+		padding: 0.5em;
+	}
+
+	.section--right {
+		width: 50%;
+		float: right;
+		border-top-width: 1.5px;
+		border-left-width: 1.5px;
+	} 
+}
+
+
+
+
