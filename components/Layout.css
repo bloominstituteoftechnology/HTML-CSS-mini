@@ -1,10 +1,9 @@
 * { --borders: 2px solid #000; }
-.Layout-container { border: var(--borders); position: relative; }
-.Layout-header { text-align: center; }
-.Layout-section { border-top: var(--borders); padding: 0rem 1rem 1rem 1rem; position: relative; }
-.Layout-section.Layout-section--new::after { content: 'New!'; background-color: #888; position: absolute; top: .5rem; right: 0; padding: .3rem; }
+.Layout { border: var(--borders); position: relative; }
+.Layout__header { text-align: center; }
+.Layout__section { border-top: var(--borders); padding: 0rem 1rem 1rem 1rem; position: relative; }
+.Layout__section.Layout-section--new::after { content: 'New!'; background-color: #888; position: absolute; top: .5rem; right: 0; padding: .3rem; }
 @media screen and (min-width: 500px) {
-	.Layout-section { display: inline-block; width: calc(50% - 2em - 1px); }
-	.Layout-section:nth-child(odd) { float: right; border-left: var(--borders); }
-	/* .Layout-section--odd is required for every other section */
+	.Layout__section { display: inline-block; width: calc(50% - 2em - 1px); }
+	.Layout__section:nth-child(odd) { float: right; border-left: var(--borders); }
 }
