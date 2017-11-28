@@ -6,34 +6,43 @@ h1 {
   text-align: center;
 }
 
-.section, .section-left, .section-right  {
-  box-sizing: border-box;
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+} 
+
+.section {
+  /* box-sizing: border-box; */
   padding: 20px;
 }
 
-.section-left, .section-right {
-  display: inline-block;
-  width: 50%;
-  border-top: 5px solid black;
+.section--left, .section--right {
+  border: 5px 5px 5px 0px solid black;
   border-bottom: 5px solid black;
   border-right: 5px solid black;
 }
 
-.section-left {
+.section--full {
+  flex: 0 0 100%;
+}
+
+.section--left {
   border-left: 5px solid black;
+  flex: 1 0 0;
 }
 
-.section-right {
-  float: right;
+.section--right {
+  flex: 1 0 0;
 }
 
-.new {
+.section__new-tag {
   position: relative;
   float: right;
   right: -20px;
   color: white;
   text-align: center;
-  background-color: rgb(100, 45, 0);
+  background-color: tomato;
   border-radius: 3px 0 0 3px;
   padding: 12px;
 }
