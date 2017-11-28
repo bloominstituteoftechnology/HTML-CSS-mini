@@ -1,5 +1,5 @@
-@import './component/Section.css';
+@import './component/List.css';
 
 body {
-    margin: 0;
+    margin: 10;
 }
