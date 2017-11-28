@@ -2,10 +2,10 @@ body {
   margin: 0;
 }
 
-.section {
+h1 {
   text-align: center;
   padding: 10px 5px 5px;
-  margin: -10px;
+  margin: 20px;
 }
 
 .section--bold {
@@ -16,26 +16,31 @@ body {
   border-right: 0;
 }
 
+
 .container {
   display: flex;
 }
 
 .container__section {
   border-style: solid;
+  padding: 20px;
 }
 
 #new {
   position: relative;
   float: right;
   margin-top: 10px;
+  margin-right: -20px;
   text-align: center;
   background-color: gray;
   border-radius: 3px 0 0 3px;
   padding: 12px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .container {
     flex-direction: column;
   }
+  
+
 }
