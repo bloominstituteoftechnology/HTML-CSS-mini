@@ -1,6 +1,61 @@
-@import './components/Section.css';
-@import './components/list.css';
+
 body {
-    margin: 0;
+   display: inline-flex;
+   flex-flow: row wrap;
+}
+.Section {
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    justify-content: space-evenly;
+    flex-basis: 0;
+    text-align: auto;
+
 }
 
+.Section--full {
+
+  
+    flex-direction: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width: 100%;
+    justify-content: center;
+   
+}
+
+.Section--half {
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px;
+    border: solid 1px;
+   
+}
+
+.Section__new1 {
+    display: inline-flex;
+    flex: flex-grow;
+    width: 50%;
+   
+}
+Section__new2 {
+    display: inline-flex;
+    flex: flex-shrink;
+    width: 50%;
+}
+
+ @media (min-width: 600px) {
+
+    .Section--half {
+        display: inline-flex;
+        box-sizing: border-box;
+        padding: 20px;
+        width: auto;
+ 
+        
+    }
+}
