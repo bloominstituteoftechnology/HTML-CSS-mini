@@ -2,7 +2,7 @@
 body{
     margin: 0;
 }
-.section {
+.Section {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -10,7 +10,7 @@ body{
     justify-content: space-evenly;
     flex-basis: 0;
 }
-.section--full {
+.Section--full {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -18,14 +18,14 @@ body{
     width: 100%;
     justify-content: center;
 }
-.section--half {
+.Section--half {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     border: 1px solid black;
     justify-content: space-between;
 }
-.heading {
+.Heading {
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
@@ -41,14 +41,14 @@ p {
     padding-right: 15px;
     text-align: justify
 }
-.heading__newTab {
+.Heading__newTab {
     padding: 5px;
     width: 50px;
     text-align: center;
     background-color: rgb(128, 128, 128);
 }
 @media (min-width: 600px) {
-    .section--half {
+    .Section--half {
         box-sizing: border-box;
         width: 50%;
     }
