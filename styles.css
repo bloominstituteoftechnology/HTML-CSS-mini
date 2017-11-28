@@ -1,0 +1,25 @@
+@import './components/Section.css';
+@import './components/List.css';
+@import './components/Article.css';
+body {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.border {
+  border: .1rem solid black;
+}
+
+.border--no-top {
+  border-top: none;
+}
+
+@media all and (min-width: 600px) {
+  .border--no-right {
+    border-right: none;
+  }
+}
