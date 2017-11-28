@@ -1,5 +1,6 @@
 @import './components/Section.css';
 @import './components/List.css';
+@import './components/Article.css';
 body {
   margin: 0;
 }
@@ -7,4 +8,17 @@ body {
 body {
   margin: 0;
   padding: 0;
+}
+
+.bordered {
+  border: .2rem solid black;
+}
+
+.border--lb {
+  border-right: none;
+  border-top: none;
+}
+
+.border--rlb {
+  border-top: none;
 }
