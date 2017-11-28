@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+.section {
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid black;
+}
+.section--full {
+    width: 100%;
+    text-align: center;
+
+}
+.section--half {
+    width: 50%;
+    text-align: left;
+}
+.heading {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 0;
+}
+h2 {
+    padding-left: 15px;
+}
+p {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+}
+.heading__newTab {
+    padding: 5px;
+    width: 50px;
+    float: right;
+    text-align: center;
+    background-color: rgb(128, 128, 128);
+}
+@media (max-width: 600px) {
+    .section--half {
+        width: 100%;
+        text-align: left;
+    } 
+}
+  
+  
