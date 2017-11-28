@@ -14,7 +14,7 @@ body {
   border: 5px thick black;
   padding: 20px;
 }
-button{
+.Section__flag{
   margin-left: auto;
   background-color: grey;
   font-weight: bold;
