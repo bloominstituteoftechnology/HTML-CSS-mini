@@ -14,12 +14,6 @@ body {
   min-width: 300px;
 }
 
-h1 {
-  text-align: center;
- 
-
-}
-
 /* Blocks ****************************************************************************************************/
 .container {
   display: flex;
@@ -40,6 +34,7 @@ h1 {
 
 .section--header {
   border-bottom: 0;
+  text-align: center;
 }
 
 #new {
