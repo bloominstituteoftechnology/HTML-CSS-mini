@@ -1,0 +1,22 @@
+h1 {
+  text-align: center;
+}
+
+
+.box {
+  display: inline-block;
+  width: 49%;
+  height: 20%;
+  border: 2px solid black;
+}
+
+.tab {
+  float: right;
+  width: 8%;
+  height: 4%;
+  background-color: gray; 
+}
+
+
+
+
