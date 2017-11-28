@@ -1,23 +1,6 @@
-@import './components list.css';
-@import './components Sections.css';
+@import './components/Section.css';
+@import './components/list.css';
 
 body {
-  margin: 0;
+  margin: 10px;
 }
-
-.section {
-  display: inline-block;
-  box-sizing: border-box;
-  background-color: gray;
-}
-
-.section--full {
-  width: 100%;
-  text-align: center;
-  margin: 0;
-}
-
-.section--half {
-  width: 50%;
-}
-
