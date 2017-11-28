@@ -43,7 +43,13 @@ body{
     justify-content: center;
     background-color: grey;
   }
-
+  p {
+     padding-left: 10px;
+     padding-right:10px;
+ }
+ h2 { 
+    padding-left:10px;
+ }
 
 @media (min-width: 600px) {
     .container--flexchild {
