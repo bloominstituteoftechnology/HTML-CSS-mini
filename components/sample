@@ -1,0 +1,35 @@
+.section {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px;
+}
+
+.section--full {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.section--half {
+    flex-direction: column;
+    padding: 20px;
+}
+
+.section__new {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-right: -20px;
+}
+
+.section__new :nth-child(2) {
+    background-color: gray;
+}
+@media (min-width: 500px) {
+
+    .section--half {
+        display: inline-flex;
+        box-sizing: border-box;
+        padding: 20px;
+        width: 50%;
+    }
+}
