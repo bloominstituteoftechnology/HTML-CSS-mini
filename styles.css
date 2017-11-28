@@ -1,46 +1,64 @@
+/***********
+
+This stylesheet is written in BEM
+
+Block = .block
+Element = .block__element
+Modifier = .block__element--modifier / .block--modifier
+
+***********/
+
+/* Global CSS */
 body {
   margin: 0;
 }
 
 h1 {
   text-align: center;
-  padding: 10px 5px 5px;
-  margin: 20px;
+
+}
+
+/* Blocks ****************************************************************************************************/
+.container {
+  display: flex;
+
+}
+
+/* Elements ***************************************************************************************************/
+.container__section {
+  border: solid;
+  padding: 10px;
+  font-size: 15px;
+}
+
+/* Modifiers ***************************************************************************************************/
+.section--left {
+  border-right: 0;
 }
 
 .section--bold {
   font-weight: bold;
 }
 
-.section--no-right-border {
-  border-right: 0;
-}
-
-
-.container {
-  display: flex;
-}
-
-.container__section {
-  border-style: solid;
-  padding: 20px;
-}
-
 #new {
-  position: relative;
-  float: right;
-  margin-top: 10px;
-  margin-right: -20px;
-  text-align: center;
   background-color: gray;
-  border-radius: 3px 0 0 3px;
-  padding: 12px;
+  float: right;
+  margin: -10px;
+  margin-top: 10px;
+  padding: 10px;
+  letter-spacing: 1px;
 }
 
-@media (max-width: 600px) {
+/* Browser resizing */
+@media(max-width: 600px) {
   .container {
     flex-direction: column;
   }
-  
-
+  .section--left {
+    border-right: solid;
+    
+  }
+  .section--right { 
+    border-top: 0;
+  }
 }
