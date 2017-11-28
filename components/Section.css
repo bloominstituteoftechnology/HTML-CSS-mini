@@ -1,15 +1,7 @@
 .Section {
     box-sizing: border-box;
-    display: inline-block;
     background-color: white;
     color: black;
-}
-.Section--flex {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
 }
 .Section--full {
     width: 100%;
@@ -17,29 +9,33 @@
     margin: 0;
     border: .25em solid black;
 }
+@media (min-width: 600px) {
+    .Section--flex {
+        display: flex;
+        box-sizing: border-box;
+    }
+    .Section--divide {
+        border-left:  .25em solid black;
+    }
+}
 .Section--new {
     display: inline-block;
 }
 .Section--half {
-    width: 50%;
+    flex: 1;
+    flex-basis: 50%;
     text-align: left;
     padding: .5em;  
+    margin: 0;
     border-top: .25em solid black;
 }
-.Section--item-flex {
-    width: 50%;
-    text-align: left;
-    border: .25em solid black;
-}
-.Section--divide {
-    border-left: .25em solid black;
-}
+
 .Alert {
     text-align: right;
     float: right;
     position: relative;
     background-color: grey;
     padding: 0 .2em 0 .2em;
-    margin-right: 
+    margin-right: -.45em;
     width: auto;
 }

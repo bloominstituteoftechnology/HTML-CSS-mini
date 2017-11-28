@@ -4,9 +4,4 @@
 body {
     margin: 0;
 }
-.alert {
-    text-align: right;
-    float: right;
-    background-color: grey;
-    width: auto;
-}
+
