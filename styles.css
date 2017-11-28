@@ -1,9 +1,9 @@
-main {
+.main {
     border: 4px solid black;
     display: flex;
     flex-direction: column;
 }
-h1 {
+.head__title {
     text-align: center;
     font-size: 2.8em;
 }
@@ -14,7 +14,7 @@ h1 {
     height: 100%;
     margin-top: 20px;
 }
-span {
+.article__new {
     align-self: center;
     font-size: 1.6em;
     background: gray;
@@ -23,24 +23,24 @@ span {
     width: 10%;
     align-self: baseline;
 }
-h2 {
+.article__title {
     padding-left: 35px;
     align-self: center;
     font-size: 2.2em;
     margin: auto;
     width: 90%;
 }
-p{
+.article__content {
     padding: 35px;
     margin: auto;
     font-size: 1.2em;
 }
-section {
+.section {
     display: flex;
     flex-direction: column;
     
 }
-article {
+.article {
     margin: auto;
     border-top:  4px solid black;
 
@@ -48,21 +48,21 @@ article {
 body {
     margin: 0;
 }
-@media (min-width: 700px) {
-    section {
+@media (min-width: 584px) {
+    .section {
         flex-direction: row;
         
     }
-    article:first-child {
+    .article:first-child {
         border-right:  4px solid black;
     }
-    h1 {
+    .head__title {
         font-size: 4em;
     }
-    p {
+    .article__content {
         font-size: 1.5em;
     }
-    h2 {
+    .article__title {
         font-size: 3em;
     }
 
