@@ -1,30 +1,111 @@
-.container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+/*https://medium.com/@pbojinov/media-queries-explained-9bf20a85731f */
+@media (min-width: 600px) {
+ .container {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   box-sizing: border-box;
+ }
+
+ .section {
+ background-color: gray;
+ border: 5px;
+ }
+
+ .section--full   {
+   /*box-sizing: border-box; */
+   /*display: inline-block;*/
+   flex-basis: 100%;
+   /*width: 100%;*/
+   text-align: center;
+   box-sizing: border-box;
+ }
+
+ .section--left {
+   box-sizing: border-box;
+ /*  display: inline-block; */
+   width: 50%;
+ }
+
+ .section--right {
+   box-sizing: border-box;
+   /*display: inline-block;*/
+   width: 50%;
+ }
 }
 
+
+
+@media (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+
+  .section {
+  background-color: gray;
+  border: 5px;
+  }
+
+  .section--full   {
+    /*box-sizing: border-box; */
+    /*display: inline-block;*/
+    flex-basis: 100%;
+    /*width: 100%;*/
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .section--left {
+    box-sizing: border-box;
+    /*  display: inline-block; */
+    flex-basis: 100%;
+  }
+
+  .section--right {
+    box-sizing: border-box;
+    /*display: inline-block;*/
+    flex-basis: 100%;
+  }
+}
+
+
+/*
 .section {
-background-color: gray;
-border: 5px;
+    display: flex;
+    flex-direction: row;
+    border: solid 1px;
 }
 
-.section--full   {
-  /*box-sizing: border-box; */
-  /*display: inline-block;*/
-  flex-basis: 100%;
-  /*width: 100%;*/
-  text-align: center;
+.section--full {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
 }
 
-.section--left {
-  box-sizing: border-box;
-/*  display: inline-block; */
-  width: 50%;
+.section--half {
+    flex-direction: column;
+    padding: 20px;
 }
 
-.section--right {
-  box-sizing: border-box;
-  /*display: inline-block;*/
-  width: 50%;
+.section__new {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-right: -20px;
 }
+
+.section__new :nth-child(2) {
+    background-color: gray;
+}
+@media (min-width: 500px) {
+
+    .section--half {
+        display: inline-flex;
+        box-sizing: border-box;
+        padding: 20px;
+        width: 50%;
+    }
+}
+*/
