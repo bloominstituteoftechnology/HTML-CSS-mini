@@ -17,10 +17,6 @@
     border-top: 0;
 }
 
-.section--half ~ .section--half {
-    border-left: 0;
-}
-
 .section__new {
     display: inline-flex;
     justify-content: space-between;
@@ -36,5 +32,9 @@
         box-sizing: border-box;
         padding: 20px;
         width: 50%;
+    }
+
+    .section--half ~ .section--half {
+        border-left: 0;
     }
 }
