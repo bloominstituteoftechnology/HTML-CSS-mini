@@ -1,0 +1,32 @@
+.article {
+    margin: auto;
+    border-top:  4px solid black;
+}
+.article__heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    height: 100%;
+    margin-top: 20px;
+}
+.article__new {
+    align-self: center;
+    font-size: 1.6em;
+    background: gray;
+    
+    padding: 12px;
+    width: 10%;
+    align-self: baseline;
+}
+.article__title {
+    padding-left: 35px;
+    align-self: center;
+    font-size: 2.2em;
+    margin: auto;
+    width: 90%;
+}
+.article__content {
+    padding: 35px;
+    margin: auto;
+    font-size: 1.2em;
+}
