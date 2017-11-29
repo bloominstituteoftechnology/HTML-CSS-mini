@@ -1,8 +1,0 @@
-section { height: 170px; }
-div { height: 170px; width: 70px; max-width: 70px; display: inline-block; background-color: black; }
-h1 { font-size: 46px; color: #f12; }
-div, h1 {  margin-left: .5rem; }
-.div--pos { margin-top: .5rem; }
-.div--pos { margin-bottom: .5rem; }
-body {position: relative; }
-section { position: absolute; }
