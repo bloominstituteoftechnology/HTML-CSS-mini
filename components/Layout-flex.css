@@ -14,6 +14,6 @@
  padding: .3rem;
  }
  @media and screen (min-width: 500px) {
- 	.Layout__section-wrapper { display: flex; }
- 	.Layout__section {  }
+ 	.Layout__section-wrapper { display: flex; flex-direction: row; flex-wrap: nowrap; flex: auto; }
+ 	.Layout__section { max-width: 500px; display: inline-block; }
  }
