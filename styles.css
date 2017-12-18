@@ -1,0 +1,14 @@
+@import './components/Section.css';
+
+body {
+  margin: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+h1 {
+  margin: 0;
+}
+
+
