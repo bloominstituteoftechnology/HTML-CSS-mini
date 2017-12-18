@@ -1,0 +1,14 @@
+.Section {
+    box-sizing: border-box;
+    background-color: gray;
+    padding: 20px;
+}
+
+.Section h1 {
+    text-align: center;
+}
+
+.Section--half {
+    width: 50%;
+    display: inline-block;
+}

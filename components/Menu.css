@@ -1,0 +1,11 @@
+.Menu {
+    list-style-type: none;
+}
+
+.Menu__item {
+    cursor: pointer;
+}
+
+.Menu--horizontal .Menu__item{
+    display: inline-block;
+}
