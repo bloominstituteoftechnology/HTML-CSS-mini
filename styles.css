@@ -1,23 +1,35 @@
 body {
   margin: 0;
+  /*padding: 20px;*/
   box-sizing: border-box;
 }
 
 h1 {
   margin: 0;
+  /*padding: 20px;*/
 }
-
+/* refers to EVERYTHING contained in the "section" class, which is basically everything inside the body of this webpage*/
 .section {
   box-sizing: border-box;
   /* background-color: gray; */
   padding: 20px;
+  flex-flow: row wrap;
+  /*display: inline-flex;*/
+  /*align-content: space-around;*/
 }
-
+/* refers only to elemts with an h1 tag in the "section" class */
 .section h1 {
   text-align: center;
 }
-
+/* refers to everything with a section--half tag */
 .section--half {
   width: 50%;
-  display: inline-block;
+  display: inline-flex;
+  /*flex-direction: row;*/
+  /*flex-direction: row;
+  flex-wrap: nowrap;*//*
+  flex-flow: row nowrap;
+  justify-content: space-around;*/
+  /*padding: 10px;*/
+  /*margin: 10px;*/
 }
