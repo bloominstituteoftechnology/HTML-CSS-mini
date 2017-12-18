@@ -11,6 +11,6 @@
  
  .Section--half {
      width: 50%;
-     display: inline-block;
+     display: inline-flex;
  }
  

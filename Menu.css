@@ -7,5 +7,5 @@
 }
 
 .Menu--horizontal .Menu_item{
-    display: inline-block;
+    flex-direction: row;
 }
