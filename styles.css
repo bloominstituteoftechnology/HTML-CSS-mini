@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0;
+}
+.section {
+    box-sizing: border-box;
+    background-color: gray;
+    padding: 20px;
+    border-style: solid;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.section--half {
+    width: 50%;
+    display: inline-block;
+}
