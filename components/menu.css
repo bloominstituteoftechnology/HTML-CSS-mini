@@ -1,0 +1,9 @@
+.Menu {
+	list-style-type: none;
+}
+.Menu__item {
+	cursor: pointer;
+}
+.Menu--hor .Menu__item{
+	display: inline-block;
+}

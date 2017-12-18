@@ -1,0 +1,5 @@
+@import './components/menu.css';
+@import './components/sections.css';
+*{
+	margin: 0;
+}
