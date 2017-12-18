@@ -1,12 +1,14 @@
-* {
+/* * {
     /* border: solid red; */
-    margin: 0;
+    /* margin: 0;
     padding: 0;
+} */ 
+body {
+    margin: 0px;
 }
 .header {
     display: flex;
     justify-content: center;
-    padding: 20px;
     border: solid;
 }
 
@@ -16,13 +18,11 @@
 }
 
 .section--left {
-    width: 50%;
     padding: 20px;
     border: solid;
     border-top: none;
 }
 .section--right {
-    width: 50%;
     padding: 20px;
     border-right: solid;
     border-bottom: solid;
