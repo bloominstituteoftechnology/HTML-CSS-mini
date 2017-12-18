@@ -1,0 +1,29 @@
+* {
+    /* border: solid red; */
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border: solid;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section--left {
+    width: 50%;
+    padding: 20px;
+    border: solid;
+    border-top: none;
+}
+.section--right {
+    width: 50%;
+    padding: 20px;
+    border-right: solid;
+    border-bottom: solid;
+}
