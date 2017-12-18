@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    box-sizing: border-box
+}
+.Section {
+   box-sizing: border-box;
+   background-color: gray;
+   padding: 20px;
+}
+
+.Section h1 {
+    text-align: center;
+    margin: 0;
+}
+
+.Section--half {
+    width: 50%;
+    display: inline-block;
+}
+
+.Menu {
+    list-style-type: none;
+}
+
+.Menu_item {
+    cursor: pointer;
+}
+
+.Menu--horizontal .menu_item{
+    display: inline-block;
+}
