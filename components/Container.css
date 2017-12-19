@@ -6,26 +6,28 @@
 	border-right: 2px solid black;
 }
 
-.Container .Container__element {
-}
-
 .Container--placeholder {
-	flex-flow: row nowrap;
-	justify-content: space-around;
+	flex-direction: column;
 }
 
 .Container--placeholder .Container__element {
-	border-bottom: 2px solid black;
 	padding: 10px;
 }
 
 .Container--placeholder .Container__elementLeft {
-	border-right: 2px solid black;
+	border-bottom: 2px solid black;
 }
 
 .Container--placeholder .Container__elementRight {
+	border-bottom: 2px solid black;
 }
 
-.Container--placeholder .Container__element .Container__right {
+@media (min-width: 600px) {
+	.Container--placeholder {
+		flex-direction: row;
+	}
 
+	.Container--placeholder .Container__elementLeft {
+		border-right: 2px solid black;
+	}
 }
