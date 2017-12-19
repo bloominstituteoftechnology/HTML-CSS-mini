@@ -1,11 +1,8 @@
-@import './Components/Section.css';
-@import './Components/Menu.css';
+@import './components/Container.css';
+@import './components/Menu.css';
 
 body {
-	margin: 0;
-	box-sizing: : border-box;
 }
 
 h1 {
-	margin: 0;
 }
