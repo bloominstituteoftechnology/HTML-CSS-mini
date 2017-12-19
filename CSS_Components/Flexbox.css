@@ -1,0 +1,31 @@
+.Section {
+    display: flex;
+    flex-flow: row wrap;    
+    width: 100%;
+    background-color: gold;
+    color: royalblue;
+    justify-content: center;
+  }
+  
+  .Section--full {
+    border: 3px solid;
+    margin: -1.5px;
+    
+  }
+
+  .Section--half {
+    width: 50%;
+  }
+
+.Section--half .Section_content {
+    border: 3px solid;
+    margin: -1.5px;
+}
+
+  .Section--half .Section_new {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5px;
+  }
+
+ 

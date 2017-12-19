@@ -1,0 +1,11 @@
+.menu {
+    list-style-type: none;
+}
+
+.menu__item {
+    cursor: pointer;
+}
+
+.menu--horizontal .menu__item{
+    display: inline-block;
+}
