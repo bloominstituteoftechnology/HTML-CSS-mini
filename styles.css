@@ -1,35 +1,19 @@
-body {
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-  h1 {
-    margin: 0;
-  }
-  
-  .section {
-    box-sizing: border-box;
+@import './components/Sections.css';
+@import './components/Menu.css';
+
+p {
+    padding: 0 15px;
+}
+
+h1 {
+    padding: 0 15px;
+}
+
+h2 {
+    padding: 0 15px;
+}
+
+h3 {
     background-color: gray;
-    padding: 20px;
-  }
-  
-  .section h1 {
-    text-align: center;
-  }
-  
-  .section--half {
-    width: 50%;
-    display: inline-block;
-  }
-
-  .menu {
-      list-style-type: none;
-  }
-
-  .menu__item {
-      cursor: pointer;
-  }
-
-  .menu--horizontal .menu__item {
-      display: inline-block;
-  }
+    width: 45px;
+}

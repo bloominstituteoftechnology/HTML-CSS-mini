@@ -1,0 +1,28 @@
+  .Section {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    background-color: white;
+    color: black;
+    justify-content: center;
+  }
+  
+  .Section--full {
+    border: 3px solid;
+    margin: 0px;
+  }
+
+  .Section--half {
+      width: 50%;
+  }
+
+  .Section--half .Section__content {
+    border: 3px solid;
+    margin: 0px;
+}
+
+.Section--half .Section__new {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5px;
+}
