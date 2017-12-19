@@ -1,7 +1,9 @@
 .Section {
     box-sizing: border-box;
-    background-color: gray;
+    background-color:white;
+    border: 3px solid black;
     padding: 20px;
+    justify-content: center;
  }
  
  .Section h1 {
@@ -11,6 +13,15 @@
  
  .Section--half {
      width: 50%;
+     border: 3px solid black;
      display: inline-flex;
+ }
+
+ .Section h3 {
+     background-color: grey;
+     width: 10%;
+     height: 10%;
+     float: right;
+     margin: 0;
  }
  

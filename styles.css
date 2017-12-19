@@ -1,6 +1,5 @@
-@import "./Section.css";
 @import "./Menu.css";
-
+@import "./Section.css";
 body {
     margin: 0;
     box-sizing: border-box
