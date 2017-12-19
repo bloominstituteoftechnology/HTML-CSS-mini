@@ -1,0 +1,26 @@
+.Section {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.Section--top {
+    border: 3px solid;  
+    margin: -1.5px;  
+}
+
+.Section--half {  
+    width: 50%;
+}
+
+.Section--half .Section__content {
+    border: 3px solid;    
+    margin: -1.5px;
+}
+
+.Section--half .Section__new {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5px;
+}
