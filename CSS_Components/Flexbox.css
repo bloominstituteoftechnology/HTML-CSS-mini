@@ -1,0 +1,30 @@
+.section {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: gold;
+    padding: 20px;
+  }
+  
+  .section h1 {
+    color: royalblue;
+    
+  }
+
+  .section2 {
+      display: flex;
+      box-sizing: border-box;
+      background-color: gold;
+      justify-content: center;
+  }
+
+  .section_item {
+      display: flex;
+      order: 1;
+      align-content: center;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-direction: row;
+  }
+
+ 

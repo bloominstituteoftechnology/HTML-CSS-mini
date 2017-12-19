@@ -1,3 +1,5 @@
+@import './CSS_Components/Flexbox.css';
+
 body {
     margin: 0;
     box-sizing: border-box;
@@ -6,31 +8,3 @@ body {
   h1 {
     margin: 0;
   }
-  
-  .section {
-    box-sizing: border-box;
-    background-color: gold;
-    padding: 20px;
-  }
-  
-  .section h1 {
-    color: royalblue;
-    text-align: center;
-  }
-  
-  .section--half {
-    width: 50%;
-    display: inline-block;
-  }
-
-.menu {
-    list-style-type: none;
-}
-
-.menu__item {
-    cursor: pointer;
-}
-
-.menu--horizontal .menu__item{
-    display: inline-block;
-}
