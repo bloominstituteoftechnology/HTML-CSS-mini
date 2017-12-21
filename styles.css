@@ -2,7 +2,5 @@
 @import './components/Menu.css';
 
 body {
-}
-
-h1 {
+	min-width: 400px;
 }
