@@ -1,0 +1,30 @@
+.main-header {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin: 0;
+    padding: 20px 46%;
+}
+
+div {
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin: 0;
+}
+
+#new {
+    float: right;
+    background-color: grey;
+    width: 10%;
+    height: 30px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    padding: 7px 13px;
+
+}
+
+h2, p {
+    margin: 15px;
+}
