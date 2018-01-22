@@ -1,36 +1,81 @@
-h1 {
-    text-align: center;
-    box-sizing: border-box;
-    border: 3px solid black;
-    width: 100%;
-    margin: 0px;
-    margin-bottom: -3px;
-    padding: 1%;
+@media (min-width: 600px) {
+    h1 {
+        text-align: center;
+        box-sizing: border-box;
+        border: 3px solid black;
+        width: 100%;
+        margin: 0px;
+        margin-bottom: -3px;
+        padding: 1%;
+    }
+
+    #new {
+        float: right;
+        box-sizing: border-box;
+        background-color: grey;
+        margin-right: -2%;
+        border-right: 8px solid grey;
+        border-left: 8px solid grey;
+    }
+
+    .columnleft {
+        display: inline-block;
+        box-sizing: border-box;
+        border: 3px solid black;
+        border-right: 1.5px solid black;
+        width: 50%;
+        margin: 0px;
+        padding: 1%;
+    }
+
+    .columnright {
+        display: inline-block;
+        box-sizing: border-box;
+        border: 3px solid black;
+        border-left: 1.5px solid black;
+        width: 50%;
+        margin: 0px;
+        padding: 1%;
+    }
 }
 
-#new {
-    float: right;
-    box-sizing: border-box;
-    background-color: grey;
-    margin-right: -2%;
-}
+@media (max-width: 600px) {
+    h1 {
+        text-align: center;
+        box-sizing: border-box;
+        border: 3px solid black;
+        width: 100%;
+        margin: 0px;
+        margin-bottom: -3px;
+        padding: 1%;
+    }
 
-.columnleft {
-    display: inline-block;
-    box-sizing: border-box;
-    border: 3px solid black;
-    border-right: 1.5px solid black;
-    width: 50%;
-    margin: 0px;
-    padding: 1%;
-}
+    #new {
+        float: right;
+        box-sizing: border-box;
+        background-color: grey;
+        border-right: 8px solid grey;
+        border-left: 8px solid grey;
+        margin-right: -1%;
+    }
 
-.columnright {
-    display: inline-block;
-    box-sizing: border-box;
-    border: 3px solid black;
-    border-left: 1.5px solid black;
-    width: 50%;
-    margin: 0px;
-    padding: 1%;
+    .columnleft {
+        display: block;
+        box-sizing: border-box;
+        border: 3px solid black;
+        border-bottom: 1.5px solid black;
+        width: 100%;
+        margin: 0px;
+        padding: 1%;
+    }
+
+    .columnright {
+        display: block;
+        box-sizing: border-box;
+        border: 3px solid black;
+        border-top: 1.5px solid black;
+        width: 100%;
+        margin: 0px;
+        padding: 1%;
+    }
 }
