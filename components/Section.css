@@ -1,0 +1,23 @@
+.Section {
+    box-sizing: border-box;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+  }
+  
+  .Section h1 {
+    text-align: center;
+  }
+  
+  .Section--half {
+    width: 50%;
+    display: inline-block;
+  }
+
+  @media (min-width: 600px) {
+    /* Both half sections in a row */
+  }
+
+  @media (max-width: 600px) {
+    /* Both half sections in a column */
+  }
