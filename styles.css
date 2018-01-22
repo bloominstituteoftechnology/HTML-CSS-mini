@@ -4,7 +4,22 @@
     box-sizing: border-box;
     margin: 0;
     padding: 10px;
+    padding-right: 0px;
     border: solid black 3px;
+    border-left: 0px;
+    height: 300px;
+}
+
+.split2 {
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    padding-right: 0px;
+    border: solid black 3px;
+    border-right: 0px;
+    border-left: 0px;
     height: 300px;
 }
 
@@ -14,9 +29,8 @@ h1 {
 
 .floatRight {
     float: right;
-    width: 50px;
-    height: 30px;
-    margin-bottom: 200px;
+    width: 70;
+    height: 35px;
     border: solid black 1px;
     background-color: grey;
     box-sizing: border-box;
@@ -28,5 +42,10 @@ h2 {
 }
 
 .centerText {
-    margin: 5px;
+    margin: 7px 7px 5px 3px;
+}
+
+.divBorder {
+    border: solid black 3px;
+    border-bottom: 0px;
 }
