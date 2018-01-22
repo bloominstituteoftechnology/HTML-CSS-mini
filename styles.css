@@ -1,0 +1,41 @@
+body {
+  background: white;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  margin-bottom: -2px;
+}
+
+.flag {
+  right: 50%;
+  background: grey;
+  width: 40px;
+  text-align: center;
+  position: relative;
+}
+
+.all {
+  box-sizing: border-box;;
+  border-style: solid;
+  border-width: 2px;
+  position: absolute;
+}
+
+.left {
+  display: inline-block;
+  width: 49%;
+  border-right-style: solid;
+  border-right-width: 2px;
+  float: left;
+}
+
+.right {
+  display: inline-block;
+  width: 49%;
+  margin-left: -2px;
+  float: right;
+}
