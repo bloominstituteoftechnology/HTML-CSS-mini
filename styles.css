@@ -1,0 +1,6 @@
+@import './components/Container.css';
+@import './components/Menu.css';
+
+body {
+	min-width: 400px;
+}
