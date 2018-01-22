@@ -1,0 +1,10 @@
+.Menu {
+    display: flex;
+    list-style-type: none;
+    flex-flow: wrap column;
+    align-items: center;
+}
+
+.Menu__item {
+    cursor: pointer;
+}
