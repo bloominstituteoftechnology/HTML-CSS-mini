@@ -4,49 +4,59 @@
     <title>Introduction to the DOM</title>
     <!-- Here we reference our styles.css for our page styling -->
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./flexboxgrid.min.css">
+    
   </head>
   <body>
+  <div class="container-fluid">
     <!-- This is where you will begin your solution -->
-    <div class="header">
-      Header
+    <div class="row">
+      <div class="col-xs-12 header"> Header </div>
     </div>
-    <div class="left-box">
-
-          <span class="title">
-            Placeholder
-          </span>
-          <span class="button">
-            New!
-          </span>
+    
+    <div class="row">
+      <div class="col-xs-12 col-sm-6  side-container">
         
-        <p class="copy">
-          You will be turning the provided wireframe into a page. For your first implementation, 
-          use only box model rules. Half way through the allotted time, refactor what you have to 
-          use flexbox. Make your second solution on a second branch.
-          You're provided with an index.html file and a styles.css file to begin with, but you're 
-          welcome to restructure as you see fit. The mockups are also in the mockup folder for your 
-          reference. The full width version is the first you'll be implementing. The mid and small 
-          are for extra credit.
-        </p>
+          <div class="row sub-hed-container">
+              <span class="col-xs-10 title">
+                  Placeholder
+              </span>
+              <span class="col-xs-2 button">
+                  New!
+              </span>
+          </div>
+          
+          <p>
+            You will be turning the provided wireframe into a page. For your first implementation, 
+            use only box model rules. Half way through the allotted time, refactor what you have to 
+            use flexbox. Make your second solution on a second branch.
+            You're provided with an index.html file and a styles.css file to begin with, but you're 
+            welcome to restructure as you see fit. The mockups are also in the mockup folder for your 
+            reference. The full width version is the first you'll be implementing. The mid and small 
+            are for extra credit.
+          </p>
+        
+      </div>
       
+      <div class="col-xs-12 col-sm-6  side-container">
+          
+          <div class="row sub-hed-container">
+            <span class="col-xs-12 title">
+                  Placeholder
+              </span>
+          </div>
+          
+          <p>
+            You will be turning the provided wireframe into a page. For your first implementation, 
+            use only box model rules. Half way through the allotted time, refactor what you have to 
+            use flexbox. Make your second solution on a second branch.
+            You're provided with an index.html file and a styles.css file to begin with, but you're 
+            welcome to restructure as you see fit. The mockups are also in the mockup folder for your 
+            reference. The full width version is the first you'll be implementing. The mid and small 
+            are for extra credit.
+          </p>
+      </div>
     </div>
-    
-    <div class="right-box">
-       
-          <span class="title">
-            Placeholder
-          </span>
-       
-        <p class="copy">
-          You will be turning the provided wireframe into a page. For your first implementation, 
-          use only box model rules. Half way through the allotted time, refactor what you have to 
-          use flexbox. Make your second solution on a second branch.
-          You're provided with an index.html file and a styles.css file to begin with, but you're 
-          welcome to restructure as you see fit. The mockups are also in the mockup folder for your 
-          reference. The full width version is the first you'll be implementing. The mid and small 
-          are for extra credit.
-        </p>
-    </div>
-    
+  </div>  
   </body>
 </html>

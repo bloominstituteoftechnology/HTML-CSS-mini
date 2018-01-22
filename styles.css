@@ -1,53 +1,53 @@
-body {
-    margin:0px;
-    padding:0px;
+.sub-hed-container {
+    padding-top:10px;
 }
+.side-container {
+    border:2px solid black;
+}
+
 .header {
     margin-top:10px;
-    width: 100%;
     border:2px solid black;
     text-align:center;
     font-size:2em;
     padding-top:10px;
-    padding-bottom:10px;
     border-bottom: 0px solid black;
-    box-sizing: border-box;
-}
-
-.left-box {
-    width:50%;
-    border: 2px solid black;
-    border-top: 2px solid black;
-    display: inline-block;
-    padding-top:10px;
-    box-sizing: border-box;
-}
-.right-box {
-    width:50%;
-    border: 2px solid black;
-    float:right;
-    border-top: 2px solid black;
-    border-left: 0px solid black;
-    padding-top:10px;
-    box-sizing: border-box;
 }
 .title {
     border:0px solid blue;
     font-size:1.8em;
     font-weight:bold;
-    position:relative;
-    top:10px;
-    padding-left:15px;
+    /*padding-left:15px;*/
 }
 .button {
-    border:0px solid blue;
-    float:right;
-    padding:8px;
+    padding-top:8px;
+    padding-bottom:8px;
     background-color:grey;
+    text-align:center;
 }
-.copy {
-    border:0px solid black;
-    padding-right:15px;
-    padding-left:15px
+
+@media (min-width: 600px) {
+  /*// Some styles to be applied when the view width reaches 600px or greater*/
+    .side-container:last-of-type {
+        border-left:none;
+    }
+}
+
+@media (max-width: 767px) {
+    /*// Some styles to be applied when the view width reaches 600px or lower*/
+
+    .side-container:last-of-type {
+        border-top:none;
+        border-left:2px solid black;
+    }
+}
+
+@media (max-width: 600px) {
+    /*// Some styles to be applied when the view width reaches 600px or lower*/
+
+    .side-container:last-of-type {
+        border-top:none;
+        border-left:2px solid black;
+    }
 }
 
