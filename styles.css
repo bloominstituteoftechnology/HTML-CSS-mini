@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    display: block;
+}
+
+.div1 {
+    width: 50%;
+    border: solid 2px black;
+    box-sizing: border-box;
+    margin: 0px;
+    float: left;
+}
+
+.div2 {
+    width: 50%;
+    border: solid 2px black;
+    box-sizing: border-box;
+    margin: 0px;
+    float: left;
+}
+
+h2 {
+    display: inline-block;
+    margin: 5px;
+}
+
+#modal {
+    float: right;
+    width: 40px;
+    height: 40px;
+    background-color: grey;
+    margin-top: 5px;
+    position: relative;
+}
+
+p {
+    margin: 5px;
+}
