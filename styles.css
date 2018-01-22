@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+}
+
+.split {
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    border: solid black 3px;
+    height: 300px;
+    padding-right: 0px;
+}
+
+.floatRight {
+    float: right;
+    width: 50px;
+    height: 30px;
+    border: solid black 1px;
+    background-color: grey;
+    box-sizing: border-box;
+    text-align: center;
+}
+h2 {
+    display: inline-block;
+}
+
+.centerText {
+    margin: 10px 7px 7px;
+}
