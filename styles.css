@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .top {
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  text-align: center;
+}
+
+.left {
+  border-style: solid;
+  border-width: 0px 3px 3px 3px;
+  border-color: black;
+  width: 50%;
+  padding: 10px 20px 10px 20px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.right {
+  border-style: solid;
+  border-width: 0px 3px 3px 0px;
+  border-color: black;
+  width: 50%;
+  padding: 10px 20px 10px 20px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.new {
+float: right;
+background-color: gray;
+padding: 5px 5px 5px 5px;
+position: absolute;
+top: 7%;
+left: 46%;
+}
