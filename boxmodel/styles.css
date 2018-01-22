@@ -1,0 +1,69 @@
+html, body, p, h1, h2 
+{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+
+h1
+{
+    text-align: center;
+    padding: 10px;
+}
+
+h2
+{
+   padding: 10px;
+}
+
+p
+{
+    padding: 10px;
+}
+
+.post
+{
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    border: 3px solid black;
+}
+
+.new
+{
+    float: right;
+    background-color: gray;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.right
+{
+   border-width: 3px 3px 3px 1.5px;
+}
+
+.left
+{
+    border-width: 3px 1.5px 3px 3px;
+}
+
+@media (max-width: 600px) {
+    .post
+    {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1920px) {
+    .post
+    {
+        width: 800px;
+    }
+    .left
+    {
+        margin-left: 1 auto;
+    }
+}
+  
