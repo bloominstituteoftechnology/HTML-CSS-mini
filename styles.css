@@ -12,11 +12,7 @@ h1 {
     float: right;
     box-sizing: border-box;
     background-color: grey;
-    padding-left: 1%;
-    padding-right: 1%;
     margin-right: -2%;
-    border-left: 8px solid grey;
-    border-right: 8px solid grey;
 }
 
 .columnleft {
