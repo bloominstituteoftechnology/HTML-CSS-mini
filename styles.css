@@ -1,0 +1,42 @@
+html, body, p {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  box-sizing: border-box;
+  }
+
+.header {
+  border: solid 2px black;
+  width: 1400px;
+  box-sizing: border-box;
+  margin: 5px 5px 0px 5px;
+  text-align: center;
+}
+
+.content {
+  width: 1400px;
+  box-sizing: border-box;
+  margin: 0px 5px;
+}
+
+.element {
+  border: solid 2px black;
+  float: left;
+  width: 50%;
+  height: 200px;
+  box-sizing: border-box;
+  /* padding: 15px; */
+}
+
+.element-content {
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.element-new {
+  background: grey;
+  padding: 10px;
+  float: right;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
