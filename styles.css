@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  border: solid 3px black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 1px 1px 0px 1px;
+}
+
+.left {
+  width: 49.5%;
+  display: inline-block;
+  border: solid 2px black;
+  box-sizing: border-box;
+  margin: 3px;
+  padding: 0px 0px 5px 1px;
+}
+
+.right {
+  width: 49.5%;
+  display: inline-block;
+  border: solid 2px black;
+  box-sizing: border-box;
+  margin: 3px;
+  padding: 0px 1px 5px 0px;
+}
+
+h2 {
+  display: inline-block;
+  margin: 5px;
+}
+
+mini-header {
+  display: inline-block;
+}
+
+.new {
+  background-color: grey;
+  float: right;
+  padding: 5px;
+}
+
+p {
+  margin: 5px;
+}
