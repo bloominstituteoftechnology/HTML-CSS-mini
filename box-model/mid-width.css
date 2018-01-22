@@ -1,0 +1,14 @@
+body {
+  background-color: black;
+}
+
+
+#mid-width-image {
+  height: 100%;
+  width: 50%;
+  position: relative;
+  left: 25%;
+}
+
+
+
