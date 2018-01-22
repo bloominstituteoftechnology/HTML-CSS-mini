@@ -1,0 +1,32 @@
+.Section {
+  display: inline-block;
+  box-sizing: border-box;
+  border: 2px solid #000;
+} 
+.Section--padding {  
+  padding: 20px;
+}
+
+.Section--full {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+.Section__h1 {
+  font-size: 36px;
+}
+.Section__h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.Section--half {
+  width: 50%;
+}
+
+.Section__badge {
+  float: right;
+  padding: 10px;
+  margin-right: -20px;
+  background-color: #cfcfcf;
+}
