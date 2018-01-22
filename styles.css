@@ -1,0 +1,40 @@
+h1 {
+  text-align: center;
+  border-bottom: 2px solid black;
+  padding: 20px;
+  margin: 0px;
+}
+
+.box {
+  width: 47%;
+  display: inline-block;
+  padding: 20px;
+}
+
+.box2 {
+  width: 47%;
+  display: inline-block;
+  padding: 20px;
+  border-left: 2px solid black;
+}
+
+#next {
+  display: inline;
+}
+
+h4 {
+  position: absolute;
+  top: 80px;
+  margin-left: 869px;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: grey;
+}
+
+h3 {
+  margin: 0;
+}
+
+.fullpage {
+  border: 2px solid black;
+}
