@@ -20,7 +20,8 @@ html, body, p {
 }
 
 .element {
-  border: solid 2px black;
+  border-left: solid 2px black;
+  border-bottom: solid 2px black; 
   float: left;
   width: 50%;
   height: 200px;
@@ -39,4 +40,8 @@ html, body, p {
   float: right;
   box-sizing: border-box;
   margin-top: 10px;
+}
+
+#element-right {
+  border-right: solid 2px black;
 }
