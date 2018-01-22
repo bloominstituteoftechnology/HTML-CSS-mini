@@ -1,0 +1,40 @@
+.section {
+  display: flex;
+  flex-direction: row;
+  border: solid 3px;
+  box-sizing: border-box;
+}
+
+.section--full {
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.section--half {
+  flex-direction: column;
+  padding: 20px;
+  border-top: 0;
+}
+
+.section__new {
+  display: inline-flex;
+  justify-content: space-between;
+  margin-right: -20px;
+}
+
+.section__new :nth-child(2) {
+  background-color: gray;
+}
+@media (min-width: 500px) {
+  .section--half {
+      display: inline-flex;
+      box-sizing: border-box;
+      padding: 20px;
+      width: 50%;
+  }
+
+  .section--half ~ .section--half {
+      border-left: 0;
+  }
+}

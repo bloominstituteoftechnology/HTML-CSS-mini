@@ -1,0 +1,16 @@
+
+.section {
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: gray;
+}
+
+.section--full {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+.section--half {
+  width: 50%;
+}

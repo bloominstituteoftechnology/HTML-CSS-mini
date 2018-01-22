@@ -1,0 +1,6 @@
+@import './components/Section.css';
+@import './components/list.css';
+
+body {
+  margin: 10px;
+}
