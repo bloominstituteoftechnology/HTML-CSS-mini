@@ -1,0 +1,53 @@
+body {
+    margin:0px;
+    padding:0px;
+}
+.header {
+    margin-top:10px;
+    width: 100%;
+    border:2px solid black;
+    text-align:center;
+    font-size:2em;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-bottom: 0px solid black;
+    box-sizing: border-box;
+}
+
+.left-box {
+    width:50%;
+    border: 2px solid black;
+    border-top: 2px solid black;
+    display: inline-block;
+    padding-top:10px;
+    box-sizing: border-box;
+}
+.right-box {
+    width:50%;
+    border: 2px solid black;
+    float:right;
+    border-top: 2px solid black;
+    border-left: 0px solid black;
+    padding-top:10px;
+    box-sizing: border-box;
+}
+.title {
+    border:0px solid blue;
+    font-size:1.8em;
+    font-weight:bold;
+    position:relative;
+    top:10px;
+    padding-left:15px;
+}
+.button {
+    border:0px solid blue;
+    float:right;
+    padding:8px;
+    background-color:grey;
+}
+.copy {
+    border:0px solid black;
+    padding-right:15px;
+    padding-left:15px
+}
+
