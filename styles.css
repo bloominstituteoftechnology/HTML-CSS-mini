@@ -8,21 +8,21 @@ h1 {
   border: 2px solid black;
   border-bottom: 0px;
 }
-div { 
-  box-sizing: border-box;
-  display: inline-block;
+.boxes {
+  display: flex;
+  flex-direction: row;
 }
 
 .left {
   border: 2px solid black;
+  border-right: 1px solid black;
   width: 50%;
 }
 
 .right {
   border: 2px solid black;
-  border-left: 1.5px;
+  border-left: 1px solid black;
   width: 50%;
-  float: right;
 }
 
 p {
@@ -34,9 +34,9 @@ h2 {
   padding-top: 10px;
 }
 
-.new {
-  width: 50px;
-  height: 30px;
+.new-stamp {
+  width: 40px;
+  height: 20px;
   float: right;
   background-color: grey;
   text-align: center;
