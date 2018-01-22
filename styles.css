@@ -30,7 +30,27 @@ div {
   border: 3px solid #000000; 
 }
 
+div:first-child {
+  border-width: 3px 1.5px 3px 3px;
+}
+
+div:last-child {
+  border-width: 3px 3px 3px 1.5px;
+}
+
 h3 {
   background-color: #eeeeee;
   padding: 10px;
+}
+
+@media (max-width: 615px) {
+
+  div:first-child {
+    border-width: 3px 3px 1.5px 3px;
+  }
+
+  div:last-child {
+    border-width: 1.5px 3px 3px 3px;
+  }
+
 }
