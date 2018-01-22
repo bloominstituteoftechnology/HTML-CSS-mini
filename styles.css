@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.header, .left, .right {
+  border: solid black;
+}
+.header {
+  border-width: 3px 3px 0px 3px;
+  height: 75px;
+  text-align: center;
+}
+h1 {
+  line-height: 32px;
+}
+.left, .right {
+  padding: 20px 0px 5px 20px;
+}
+h2 {
+  display: inline;
+}
+.left {
+  border-width: 3px;
+  width: calc(50vw + 1.5px);
+  float: left;
+}
+.right {
+  border-width: 3px 3px 3px 0px;
+  width: calc(50vw - 1.5px);
+  float: right;
+}
+.new {
+  text-align: center;
+  background-color: gray;
+  width: 50px;
+  padding: 8px 0px 8px 0px;
+  margin-top: -10px;
+  float: right;
+}
