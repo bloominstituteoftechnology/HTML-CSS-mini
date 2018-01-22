@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+
+}
+div {
+    border-style:solid;
+    border-color: black;
+    border-width: 5px;
+    width: 50%;
+}
+
