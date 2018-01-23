@@ -1,13 +1,13 @@
 .container {
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
     border-style: solid;
     border-width: 2px;
 }
 
 .item {
     border-style: solid;
-    border-width: 0px 2px 0px 0px;
+    border-width: 0px 0px 2px 0px;
     box-sizing: border-box;
     padding: 10px;
 }
@@ -36,4 +36,16 @@ h1 {
     float: right;
     margin-top: -5px;
     margin-right: -9px;
+}
+
+@media (min-width: 600px) {
+    .container {
+        flex-flow: row;
+    }
+    .item {
+        border-width: 0px 2px 0px 0px;
+    }
+    .item:last-of-type {
+        border-width: 0px 0px 0px 0px;
+    }
 }
