@@ -1,61 +1,68 @@
-html, p, h1, h2
+body
 {
-    display: flex;
     margin: 0;
     padding: 0;
 }
 
-h1
+.header
 {
-    display: flex;
-    justify-content: center; 
-    padding: 10px;
-} 
- 
-h2
-{
-    display: flex;
-    padding-left: 10px;
-    height: 50px;
+    border: solid black 3px;
 }
 
-p 
+.header__title
 {
-    display: flex;
-    padding: 0 0 10px 10px;
+    font-size: 36px;
+    text-align: center;
+    padding: 15px;
 }
 
-.container
+.content-container
 {
     display: flex;
-    flex-grow: 100%;
+    flex-direction: column;
 }
 
 .post
 {
     display: flex;
     border: solid black 2px;
-    align-items: flex-start;
     flex-direction: column;
+}
+
+.post__title
+{
+    display: flex;
+    font-size: 23px;
+    padding-left: 10px;
+
+}
+
+.post__copy
+{
+    display: flex;
+    padding: 15px;
 }
 
 .new
 {
     display: flex;
     background-color: gray;
-    margin-top: 5px;
     padding: 10px;
-    align-self: flex-start;
+    align-self: flex-end;
+    position: absolute;
+    top: 85px;
 }
 
-.placeholder
+.new--red-label
 {
-    display: flex;
-    width: 100%;
+    color: red;
 }
 
-.placeholderfix
+@media (min-width: 900px) 
 {
-    display: flex;
-    width: 100%;
+    .content-container
+    {
+        display: flex;
+        flex-direction: row;
+    }
 }
