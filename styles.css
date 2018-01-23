@@ -1,7 +1,7 @@
 .block { 
     display: inline-block;
     box-sizing: border-box;
-	width: 50%;
+	width: 100%;
 	height: 50%;
     padding: 10px;
     border-style: solid;
@@ -16,7 +16,7 @@ h1 {
 }
 
 .block:last-of-type {
-    border-left: 0px;
+    border-width: 0px 2px 2px 2px;
 }
 
 #new {
@@ -28,4 +28,13 @@ h1 {
     margin-top: -5px;
     padding-top: 10px;
     background-color: gray;
+}
+
+@media (min-width: 600px) {
+    .block {
+        width: 50%;
+    }
+    .block:last-of-type{
+        border-width: 2px 2px 2px 0px;
+    }
 }
