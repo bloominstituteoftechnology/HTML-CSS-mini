@@ -1,41 +1,55 @@
 
 
-.twin {
-    float: left;
+div {
+    border: solid black 1px;
+    
+  
+}
+
+.container {
+    display: flex;
     
 }
 
-.size {
-    width: 100%;
-    height: 20%;
-}
-
-h1 { 
+h1 {
     text-align: center;
+    padding: 1%;
 }
 
-.color1 {
-    padding: 1.20%;
-}
+h2 {
+   
+    padding: 1%;
+    display: inline-block;
 
-.color2 {
-    width: 47.25%;
-    padding: 1.25%;
-}
-
-.color3 {
-    width: 47.25%;
-    padding: 1.25%;
-}
-
-.div {
-    border: 1.5px solid black;
-}
-
-.width {
-    width: 100%;
 }
 
 h3 {
-    text-align: center;
+    background-color: grey;
+    padding: 0.5%;
+    display: inline-block;
+    float: right;
+
+}
+
+
+.header {
+    width: 100%;
+    
+}
+
+.placeholder1 {
+    width: 50%;
+    display: inline-block;
+
+}
+
+.placeholder2 {
+    width: 50%;
+    display: inline-block;
+    
+
+}
+
+p, h2 {
+    padding: 1%;
 }
