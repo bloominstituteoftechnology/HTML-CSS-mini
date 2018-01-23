@@ -1,0 +1,55 @@
+
+
+div {
+    border: solid black 1px;
+    
+  
+}
+
+.container {
+    display: flex;
+    
+}
+
+h1 {
+    text-align: center;
+    padding: 1%;
+}
+
+h2 {
+   
+    padding: 1%;
+    display: inline-block;
+
+}
+
+h3 {
+    background-color: grey;
+    padding: 0.5%;
+    display: inline-block;
+    float: right;
+
+}
+
+
+.header {
+    width: 100%;
+    
+}
+
+.placeholder1 {
+    width: 50%;
+    display: inline-block;
+
+}
+
+.placeholder2 {
+    width: 50%;
+    display: inline-block;
+    
+
+}
+
+p, h2 {
+    padding: 1%;
+}
