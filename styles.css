@@ -1,31 +1,39 @@
-.block { 
-    display: inline-block;
-    box-sizing: border-box;
-	width: 50%;
-	height: 50%;
-    padding: 10px;
+.container {
+    display: flex;
+    flex-flow: row;
     border-style: solid;
+    border-width: 2px;
+}
+
+.item {
+    border-style: solid;
+    border-width: 0px 2px 0px 0px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.item:last-of-type {
+    border-width: 0px 0px 0px 0px;
 }
 
 h1 {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     border-bottom: 0px;
     border-style: solid;
     margin: 0px;
     padding: 10px;
 }
 
-.block:last-of-type {
-    border-left: 0px;
-}
-
 #new {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
-    float: right;
     width: 60px;
     height: 35px;
-    margin-right: -10px;
-    margin-top: -5px;
-    padding-top: 10px;
     background-color: gray;
+    float: right;
+    margin-top: -5px;
+    margin-right: -9px;
 }
