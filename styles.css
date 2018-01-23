@@ -1,0 +1,42 @@
+.page {
+  border: 2px solid black;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box-1 {
+  width: 100%;
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+
+.box-2 {
+  width: 45%;
+  border-right: 2px solid black;
+  padding: 20px;
+  padding-left: 0px;
+}
+
+.box-3 {
+  width: 45%;
+  padding: 20px;
+  padding-right: 0px;
+  padding-left: 50px;
+}
+
+h3 {
+  width: 97%;
+  display: inline-block;
+}
+
+h4 {
+  display: inline-block;
+  width: 35px;
+  text-align: right;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: grey;
+  position: absolute;
+}
