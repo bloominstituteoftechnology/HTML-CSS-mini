@@ -27,23 +27,31 @@ h1 {
 
 h3 {
     margin-top: 0;
+    margin-bottom: 15px;
     font-size: 30px;
 }
 
 p {
     font-size: 20px;
+    margin: 0;
 }
 
 #box {
     float: right;
-    padding: .5%;
-    background-color: grey
+    padding: 1%;
+    margin-right: -2.05%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: grey;
+    z-index: -1;
 }
 
 #left {
     border-right-width: 2.5px;
+    z-index: 2;
 }
 
 #right {
     border-left-width: 2.5px;
+    z-index: 2;
 }
