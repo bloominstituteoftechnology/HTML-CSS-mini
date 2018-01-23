@@ -1,7 +1,7 @@
 **HTML/CSS mini**
 ----------------------------------
 
-Topics:  
+Topics:
 * Box Model
 * Flex Box
 * BEM Naming Conventions
