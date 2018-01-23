@@ -1,0 +1,15 @@
+body{
+  margin: 0; /* removing the default body margin */
+}
+#container-one {
+  display: flex;
+}
+.header {
+  display: block;
+  border-style: solid;
+  text-align: center;
+}
+.box {
+  text-align: center;
+  border-style: solid;
+}
