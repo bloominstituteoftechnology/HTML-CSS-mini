@@ -20,7 +20,7 @@ html, body {
   box-sizing: border-box;
   margin: 0px 5px;
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
 }
 
 .element {
@@ -28,7 +28,7 @@ html, body {
   width: 50%;
   box-sizing: border-box;
   display: flex;
-  flex-direction: row-reverse;  
+  flex-direction: row-reverse;
 }
 
 .element-last {
