@@ -1,4 +1,4 @@
-.container {
+.pageContainer {
     display: inline-flex;
 }
 
@@ -21,11 +21,17 @@
     padding: 5px;
 }
 
+.rightSide__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 h1 {
     text-align: center;
 }
 
-.modal {
+.leftSide__modal {
     display: flex;
     box-sizing: border-box;
     height: 30px;
@@ -37,20 +43,92 @@ h1 {
     padding-left: 10px;
     }
 
-.new {
+.leftSide__modalText {
     display: flex;
     align-self: center;
 }
 
-.title {
+.leftSide__title {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.paragraph {
+.leftSide__paragraph {
     align-self: flex-start;
 }
-.flex {
+.leftSide__flex {
     display: flex;
+}
+
+@media (max-width: 600px) {
+    .borderContainer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .pageContainer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .leftSide {
+        display: flex;
+        flex-direction: column;
+        border-top: solid black 3px;
+        border-right: solid black 1.5px;
+        padding: 5px;
+        padding-right: 0px;
+    }
+    
+    .rightSide {
+        border-top: solid black 3px;
+        border-left: solid black 1.5px;
+        padding: 5px;
+    }
+    
+    .rightSide__title {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    .leftSide__modal {
+        display: flex;
+        box-sizing: border-box;
+        height: 30px;
+        width: 70px;
+        background-color: grey;
+        border: solid black 1px;
+        border-right: 0px;
+        padding: 5px;
+        padding-left: 10px;
+        }
+    
+    .leftSide__modalText {
+        display: flex;
+        align-self: center;
+    }
+    
+    .leftSide__title {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .leftSide__paragraph {
+        align-self: flex-start;
+    }
+    .leftSide__flex {
+        display: flex;
+    }
+
+
+
 }
