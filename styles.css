@@ -1,0 +1,46 @@
+h1 {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.head {
+  text-align: center;
+  border: 3px solid black;
+  border-bottom: 0px;
+  padding: auto;;
+  margin: auto;
+  width: 100%;
+}
+.left {
+  display: inline-block;
+  box-sizing: border-box;
+  border: 3px;
+  border-style: solid;
+  border-color: black;
+  margin: auto;
+  padding: auto;
+  width: 50%;
+}
+.right {
+  display: inline-block;
+  box-sizing: border-box;
+  border: 3px;
+  border-left: 0px;
+  border-style: solid;
+  border-color: black;
+  padding: auto;
+  width: 50%;
+  margin: auto;
+}
+.new {
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: grey;
+  margin-top: 20px;
+  padding: 5px;
+  float: right;
+}
+.text {
+  padding: 5px;
+  margin: 5px;
+}
