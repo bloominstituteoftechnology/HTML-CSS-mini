@@ -2,10 +2,19 @@ html, body {
   margin: 0px;
   padding: 0px;
   border: 0px;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   }
 
-.header {
+  .content {
+    width: 90%;
+    box-sizing: border-box;
+    margin: 0px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.content__header {
   border: solid 2px black;
   border-bottom: 0px;
   width: 90%;
@@ -15,24 +24,16 @@ html, body {
   justify-content: center;
 }
 
-.content {
-  width: 90%;
-  box-sizing: border-box;
-  margin: 0px 5px;
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.element {
+.content__panel {
   border: solid 2px black;
-  width: 50%;
+  width: 90%;
   box-sizing: border-box;
   display: flex;
   flex-direction: row-reverse;
 }
 
 .element-last {
-  border-left: 0px;
+  border-top: 0px;
 }
 
 .element-content {
