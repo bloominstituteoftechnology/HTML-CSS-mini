@@ -1,29 +1,27 @@
-h1 {
-    text-align: center;
+.flex-container {
     display: flex;
-    border: solid 3px black;
-    margin: 0px;
-}
-
-.div1 {
-    display: inline-flex;
-    flex-direction: row;
+    flex-flow: row;
+    text-align: left;
     border: solid 2px black;
     box-sizing: border-box;
     margin: 0px;
+    justify-content: space-around;
 }
 
-.div2 {
-    display: inline-flex;
-    flex-direction: row;
+.div {
     border: solid 2px black;
-    box-sizing: border-box;
-    margin: 0px;
+   
 }
 
 h2 {
     display: inline-block;
     margin: 5px;
+}
+
+h1 {
+    text-align: center;
+    border: solid 3px black;
+    margin: 0px;
 }
 
 #grey {
@@ -37,17 +35,10 @@ h2 {
     margin-right: 0px;
 }
 
-p {
-    margin: 5px;
-}
-
 @media (max-width: 600px) {
-    .div1 {
-        width: 100%;
-    }
-    
-    .div2 {
-        width: 100%;
+    .flex-container {
+        display: flex;
+        flex-flow: wrap;
     }
   }
   
