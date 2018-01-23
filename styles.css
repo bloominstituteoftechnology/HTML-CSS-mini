@@ -1,11 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
     text-align: center;
-    display: block;
 }
 
 .div1 {
     width: 50%;
-    border: solid 2px black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
     box-sizing: border-box;
     margin: 0px;
     float: left;
@@ -13,7 +19,9 @@ h1 {
 
 .div2 {
     width: 50%;
-    border: solid 2px black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
     box-sizing: border-box;
     margin: 0px;
     float: left;
@@ -26,11 +34,14 @@ h2 {
 
 #modal {
     float: right;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 30px;
     background-color: grey;
     margin-top: 5px;
     position: relative;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
 }
 
 p {
