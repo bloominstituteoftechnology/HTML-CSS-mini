@@ -1,5 +1,6 @@
 .container {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .child {
@@ -15,6 +16,7 @@
 
 .child:not(:first-child) {
     justify-content: space-between;
+    flex: 1;
     width: 50%;
     border-top-width: 2.5px;
     padding: 1%;
