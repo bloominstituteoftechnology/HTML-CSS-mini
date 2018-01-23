@@ -12,9 +12,18 @@ h1 {
     box-sizing: border-box;
     margin: 0;
     padding: 10px;
-    border-left: solid black 1.5px;
     border-right: solid black 1.5px;
-    border-bottom: solid black 1.5px;
+    border-top: solid black 3px;
+    height: 300px;
+    padding-right: 0px;
+}
+.split2 {
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    border-left: solid black 1.5px;
     border-top: solid black 3px;
     height: 300px;
     padding-right: 0px;
@@ -35,4 +44,57 @@ h2 {
 
 .centerText {
     margin: 10px 7px 7px;
+}
+@media (max-width: 600px) {
+    .pageBorder {
+        box-sizing: border-box;
+        border: solid black 3px;
+    }
+    h1 {
+        text-align: center;
+    }
+    
+    .split {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 10px;
+        border-left: solid black 1.5px;
+        border-right: solid black 1.5px;
+        border-bottom: solid black 1.5px;
+        border-top: solid black 3px;
+        height: 300px;
+        padding-right: 0px;
+    }
+    .split2 {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 10px;
+        border-left: solid black 1.5px;
+        border-right: solid black 1.5px;
+        border-bottom: solid black 1.5px;
+        border-top: solid black 3px;
+        height: 300px;
+        padding-right: 0px;
+    }
+    
+    .floatRight {
+        float: right;
+        width: 50px;
+        height: 30px;
+        border: solid black 1px;
+        background-color: grey;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    h2 {
+        display: block;
+    }
+    
+    .centerText {
+        margin: 10px 7px 7px;
+    }
 }
