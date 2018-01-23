@@ -1,7 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	}
+}
 
 .header {
 	display: flex;
@@ -50,5 +50,19 @@
 	
 .flag--color {
 	background-color: grey;
-
 }
+
+@media screen and (max-width: 480px) {
+	.container {
+		flex-direction: column;
+	}
+	.container__left-text {
+		border-right: solid 4px black;
+	}
+}
+
+
+
+
+
+
