@@ -2,6 +2,7 @@
   border: 3px solid black;
   text-align: center;
 }
+
 .container {
   display: inline-flex;
 }
@@ -11,6 +12,7 @@
   border-top: none;
   border-right: none;
 }
+
 .placeholder {
   display: flex;
 }
@@ -22,11 +24,13 @@
   width: 65px;
   height: 47px;
 }
+
 .left-upper {
   display: flex;
   justify-content: space-between;
   flex-flow: row;
 }
+
 .right {
   border: 3px solid black;
   border-top: none;
