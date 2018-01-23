@@ -1,0 +1,14 @@
+h1 {
+  text-align: center;
+  border: 1px solid black;
+  margin: 0;
+  border-bottom: 0px;
+}
+
+.para{
+  box-sizing: border-box;
+  display: inline-block;
+  width: 50%;
+  border: 1px solid black;
+  padding-left: 10px;
+}
