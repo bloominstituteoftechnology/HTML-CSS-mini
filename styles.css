@@ -7,6 +7,9 @@ h1 {
   border-width: 3px;
 }
 
+h2 {
+  margin: 0;
+}
 
 div#flex-container {
   display: flex;
@@ -19,7 +22,7 @@ display: flex;
 flex-flow: row wrap;
 border-width: 0px 3px 0px 0px;
 border-style: solid;
-padding: 20px
+padding: 15px
 }
 
 div.flex-item2 {
@@ -27,5 +30,5 @@ display: flex;
 flex-flow: row wrap;
 border-width: 0px 0px 0px 0px;
 border-style: solid;
-padding: 20px
+padding: 15px
 }
