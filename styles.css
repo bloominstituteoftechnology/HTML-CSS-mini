@@ -27,12 +27,14 @@ h1 {
 
 .modal {
     display: flex;
+    box-sizing: border-box;
     height: 30px;
     width: 70px;
     background-color: grey;
     border: solid black 1px;
     border-right: 0px;
     padding: 5px;
+    padding-left: 10px;
     }
 
 .new {
