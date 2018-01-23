@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    border: solid;
+}
+.section {
+    display: flex;
+    justify-content: space-between;
+}
+.section--left {
+    padding: 20px;
+    border: solid;
+    border-top: none;
+}
+.section--right {
+    padding: 20px;
+    border-right: solid;
+    border-bottom: solid;
+}
+
+@media (max-width: 980px) {
+    .section {
+        display: flex;
+        flex-direction: column;
+    }
+    .section--right {
+        padding: 20px;
+        border: solid;
+        border-top: none;
+    }
+}
+  

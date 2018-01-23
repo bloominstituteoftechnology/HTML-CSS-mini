@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    border: solid;
+    border-bottom: none;
+}
+.section {
+    /* background-color: gray; */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.section h1 {
+    text-align: center;
+    margin: 0;
+}
+
+.section--half {
+    width: 50%;
+    display: inline-block;
+    border: solid;
+}
+
+.section--left {
+    border-left: none;
+}
+
+.section--right {
+    border-right: none;
+    border-left: none;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu__item {
+    cursor: pointer;
+}
+
+.menu--horizontal .menu__item{
+    display: inline-block;
+}
