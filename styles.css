@@ -8,7 +8,7 @@ html, body {
 .header {
   border: solid 2px black;
   border-bottom: 0px;
-  width: 1400px;
+  width: 90%;
   box-sizing: border-box;
   margin: 5px 5px 0px 5px;
   display: flex;
@@ -16,7 +16,7 @@ html, body {
 }
 
 .content {
-  width: 1400px;
+  width: 90%;
   box-sizing: border-box;
   margin: 0px 5px;
   display: flex;
@@ -26,7 +26,6 @@ html, body {
 .element {
   border: solid 2px black;
   width: 50%;
-  height: 200px;
   box-sizing: border-box;
   display: flex;
   flex-direction: row-reverse;  
