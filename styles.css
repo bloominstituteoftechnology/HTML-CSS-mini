@@ -17,17 +17,16 @@ h1 {
 }
 .left, .right {
   padding: 20px 0px 5px 17.5px;
+  width: 100vw;
 }
 h2 {
   display: inline;
 }
 .left {
   border-width: 3px;
-  width: 100vw;
 }
 .right {
   border-width: 0px 3px 3px 3px;
-  width: 100vw;
 }
 .new {
   text-align: center;
@@ -36,6 +35,9 @@ h2 {
   padding: 8px 0px 8px 0px;
   margin-top: -10px;
   float: right;
+}
+p {
+  padding-right: 10px;
 }
 
 @media (min-width: 600px){
