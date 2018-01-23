@@ -87,3 +87,11 @@ text-align: left;
     background : #888f91;
 }
 
+.badgePosition {
+    position: absolute;
+    top: 100px;
+    right: 630px;
+    width: 67px;
+    height: 60px;
+    border: 3px solid #73AD21;
+}
