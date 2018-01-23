@@ -52,3 +52,12 @@
 	background-color: grey;
 
 }
+
+@media screen and (max-width: 480px) {
+	.container {
+		flex-direction: column;
+	}
+	.container__left-text {
+		border-right: solid 4px black;
+	}
+}
