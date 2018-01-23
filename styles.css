@@ -1,4 +1,4 @@
-html, body, p {
+html, body {
   margin: 0px;
   padding: 0px;
   border: 0px;
@@ -32,6 +32,10 @@ html, body, p {
   flex-direction: row-reverse;  
 }
 
+.element-last {
+  border-left: 0px;
+}
+
 .element-content {
   padding: 15px;
   box-sizing: border-box;
@@ -41,7 +45,6 @@ html, body, p {
   background: grey;
   padding: 10px;
   box-sizing: border-box;
-  margin-top: 10px;
-  height: 40px;
+  margin-top: 5px;
+  height: 35px;
 }
-
