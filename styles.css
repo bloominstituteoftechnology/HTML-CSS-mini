@@ -5,7 +5,7 @@ h1 {
     margin: 0px;
 }
 
-.div1 {
+.LIleft {
     width: 50%;
     display: inline-block;
     border: solid 2px black;
@@ -13,21 +13,22 @@ h1 {
     margin: 0px;
 }
 
-.div2 {
+.LIright {
     width: 50%;
     display: inline-block;
-    border: solid 2px black;
+    border: solid 2px rgb(41, 16, 16);
     box-sizing: border-box;
     margin: 0px;
     float: right;
 }
 
-h2 {
+.LIleft__h2, .LIright__h2 {
     display: inline-block;
     margin: 5px;
+    width: 50%;
 }
 
-#grey {
+.LIleft__grey {
     display: inline-block;
     width: 40px;
     height: 20px;
@@ -38,7 +39,7 @@ h2 {
     margin-right: 0px;
 }
 
-p {
+.LIleft__p, .LIright__p {
     margin: 5px;
 }
 
