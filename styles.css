@@ -13,3 +13,11 @@ body{
   border-style: solid;
   box-sizing: border-box
 }
+
+@media (min-width: 600px) {
+  .box {display: inline-block;}
+}
+
+@media (max-width: 600px) {
+  .box {display: block;}
+}
