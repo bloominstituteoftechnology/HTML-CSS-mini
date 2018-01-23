@@ -1,0 +1,78 @@
+p {
+    padding-right:10px;
+    padding-left:5px;
+}
+.header {
+    display: flex;
+    width:100%;
+    margin-top:10px;
+    border:2px solid black;
+    text-align:center;
+    font-size:2em;
+    padding-top:10px;
+    border-bottom: 0px solid black;
+}
+.sub-hed-container {
+    padding-top:10px;
+}
+.side-container {
+    border:2px solid black;
+}
+.title {
+    border:0px solid blue;
+    font-size:1.8em;
+    font-weight:bold;
+    padding-left:5px;
+}
+.button {
+    float: right;
+    padding:10px;
+    background-color:grey;
+    text-align:center;
+}
+.flex-container, .flex-container-header  {
+    display: flex;
+}
+.flex-container > div {
+    margin: 0px;
+    padding-left:10px;
+}
+.flex-container-header > div {
+    flex-direction: row;
+    width:100%;
+    margin-top:10px;
+    border:2px solid black;
+    text-align:center;
+    font-size:2em;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-bottom: 0px solid black;
+    font-weight:bold;
+    box-sizing: border-box
+}
+
+
+@media (min-width: 601px) {
+  /*// Some styles to be applied when the view width reaches 600px or greater*/
+    .side-container:last-of-type {
+        border-left:none;
+    }
+    .flex-container > div {
+      width:50%;
+    }
+}
+
+@media (max-width: 600px) {
+    /*// Some styles to be applied when the view width reaches 600px or lower*/
+    .side-container:last-of-type {
+        border-top:none;
+        border-left:2px solid black;
+    }
+    .flex-container {
+        flex-direction: column;
+    }
+    .flex-container > div {
+        width:100%;
+        box-sizing: border-box
+    }
+}
