@@ -23,13 +23,11 @@ h2 {
 }
 .left {
   border-width: 3px;
-  width: calc(50vw + 1.5px);
-  float: left;
+  width: 100vw;
 }
 .right {
-  border-width: 3px 3px 3px 0px;
-  width: calc(50vw - 1.5px);
-  float: right;
+  border-width: 0px 3px 3px 3px;
+  width: 100vw;
 }
 .new {
   text-align: center;
@@ -38,4 +36,17 @@ h2 {
   padding: 8px 0px 8px 0px;
   margin-top: -10px;
   float: right;
+}
+
+@media (min-width: 600px){
+  .left {
+    float: left;
+    width: calc(50vw + 1.5px);
+    border-width: 3px;
+  }
+  .right {
+    float: right;
+    width: calc(50vw - 1.5px);
+    border-width: 3px 3px 3px 0px;
+  }
 }
