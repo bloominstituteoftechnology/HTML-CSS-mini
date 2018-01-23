@@ -1,20 +1,20 @@
-.container {
+.block {
     display: flex;
     flex-wrap: wrap;
 }
 
-.child {
+.block__element {
     display: inline-block;
     box-sizing: border-box;
     border: 5px solid black;
 }
 
-.child:first-child {
+.block__element--mod1st {
     width: 100%;
     border-bottom-width: 2.5px;
 }
 
-.child:not(:first-child) {
+.block__element:not(:first-child) {
     justify-content: space-between;
     flex: 1;
     width: 50%;
