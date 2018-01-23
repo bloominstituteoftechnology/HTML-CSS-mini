@@ -1,0 +1,62 @@
+.header {
+    width:100%;
+ 
+    border:2px solid black;
+    border-bottom: 0px solid black;
+    box-sizing: border-box;
+}
+.header__title {
+    text-align:center;
+    font-size:2em;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-weight:bold;
+}
+
+.placeholderBox {
+    width:50%;
+    float:left;
+    box-sizing: border-box;
+    border: 2px solid black;
+
+}
+.placeholderBox--secondary {
+    border-left: none;
+}
+.placeholderBox__title {
+   
+    font-size:1.8em;
+    font-weight:bold;
+    padding-left:2%;
+    position:relative;
+    top:2%;
+}
+.placeholderBox__btn-title {
+    float: right;
+    padding:2%;
+    background-color:grey;
+    text-align:center;
+}
+.placeholderBox__paragraph {
+    padding-right:2%x;
+    padding-left:2%;
+    padding-right:2%;
+    text-align:justify;
+}
+
+
+@media (min-width: 601px) {
+  /*// Some styles to be applied when the view width reaches 601px or greater*/
+}
+
+@media (max-width: 600px) {
+    /*// Some styles to be applied when the view width reaches 600px or lower*/
+    .placeholderBox {
+        width:100%;
+    }
+    .placeholderBox--secondary {
+        border-left: 2px solid black;
+        border-top: none;
+    }
+    
+}
