@@ -1,0 +1,61 @@
+html, p, h1, h2
+{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+h1
+{
+    display: flex;
+    justify-content: center; 
+    padding: 10px;
+} 
+ 
+h2
+{
+    display: flex;
+    padding-left: 10px;
+    height: 50px;
+}
+
+p 
+{
+    display: flex;
+    padding: 0 0 10px 10px;
+}
+
+.container
+{
+    display: flex;
+    flex-grow: 100%;
+}
+
+.post
+{
+    display: flex;
+    border: solid black 2px;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.new
+{
+    display: flex;
+    background-color: gray;
+    margin-top: 5px;
+    padding: 10px;
+    align-self: flex-start;
+}
+
+.placeholder
+{
+    display: flex;
+    width: 100%;
+}
+
+.placeholderfix
+{
+    display: flex;
+    width: 100%;
+}
