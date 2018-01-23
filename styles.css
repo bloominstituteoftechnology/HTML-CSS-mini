@@ -31,7 +31,12 @@ h1 {
     width: 70px;
     background-color: grey;
     border: solid black 1px;
-    
+    padding: 5px;
+    }
+
+.new {
+    display: flex;
+    align-self: center;
 }
 
 .title {
