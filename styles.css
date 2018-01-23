@@ -1,4 +1,4 @@
-lock { 
+.block { 
     display: inline-block;
     box-sizing: border-box;
 	width: 100%;
@@ -7,7 +7,7 @@ lock {
     border-style: solid;
 }
 
-h1 {
+.header {
     text-align: center;
     border-bottom: 0px;
     border-style: solid;
@@ -15,11 +15,7 @@ h1 {
     padding: 10px;
 }
 
-.block:last-of-type {
-    border-width: 0px 2px 2px 2px;
-}
-
-#new {
+.block__new {
     text-align: center;
     float: right;
     width: 60px;
