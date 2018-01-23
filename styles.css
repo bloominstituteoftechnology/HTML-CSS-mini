@@ -2,38 +2,54 @@
 	margin: 0;
 	padding: 0;
 	}
+
+.header {
+	display: flex;
+	justify-content: center;
+	border: solid 4px black;
+	padding: 20px;
+}
+
+h2 {
+	margin: 0px 0px 15px 0px;
+}
+
+.container {
+	display: flex;
+}
+
+.newContainer {
+	display: flex;
+	flex-direction: row;
+	border-left: solid 4px black;
+	border-bottom: solid 4px black;
+}
 	
-	.header {
-		display: block;
-		border: solid black;
-		border-width: 0px 0px 6px 0px
-	}
+.left-text {
+	display: flex;
+	flex-direction: column;
+  padding: 5px;
+}
 	
-	.left-text {
-		display: inline-block;
-		box-sizing: border-box;
-    width: 50%;
-		padding: 0px;
-		margin: 0;
-		border: solid 5px black;
-		border-width: 0px 3px 6px 6px
-	}
+.right-text {
+	display: flex;
+	flex-direction: column;
+	border-left: solid 4px black;
+	border-right: solid 4px black;
+	border-bottom: solid 4px black;
+  padding: 5px;
+}
 	
-	.right-text {
-		display: inline-block;
-		box-sizing: border-box;
-		width: 50%;
-		padding: 0px;
-		margin: 0;
-		border: solid 5px black;
-		border-width: 0px 6px 6.6px 3px
-	}
-	
-	#modal {
-			background-color: grey;
-			position: absolute right 0;
-			margin: 0;
-			width: 50px;
-			height: 50px;
-			float: right;
+.new {
+		display: flex;
+		flex-direction: column-reverse;
+		background-color: grey;
+		position: absolute right 0;
+		text-align: center;
+		vertical-align: middle;
+		width: 50px;
+		margin: auto;
+		line-height: 30px;
+		height: 30px;
+		float: right;
 	}
