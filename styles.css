@@ -1,0 +1,32 @@
+.header {
+  padding: 20px;
+  text-align: center;
+  border: 3px solid #000000;
+  border-bottom: none;
+  margin-bottom: 0;
+}
+.box {
+  border: 3px solid black;
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+}
+.left {
+  border-right: none;
+}
+.placeholder {
+  display: inline-block;
+  width: 50%;
+  margin-bottom: 0;
+}
+.text {
+  padding: 0 15px
+}
+#new {
+  float: right;
+  font-size: 14px;
+  background-color: grey;
+  text-align: center;
+  width: 60px;
+  margin-top: 7px;
+}
