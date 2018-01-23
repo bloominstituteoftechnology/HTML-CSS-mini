@@ -25,11 +25,11 @@ body {
   padding-bottom: 3px;
   width: 100vw;
 }
-.left-top, .right-top {
+.left__top, .right__top {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 55px;
+  height: 50px;
   width: 100%;
 }
 .left {
@@ -40,16 +40,14 @@ body {
 }
 p {
   margin-top: auto;
+  padding-right: 10px;
 }
-.new {
+.left__new {
   justify-content: center;
   align-items: center;
   background-color: gray;
   width: 50px;
   height: 30px;
-}
-p {
-  padding-right: 10px;
 }
 
 @media (min-width: 600px) {
