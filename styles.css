@@ -44,7 +44,6 @@
 .block__element--modNot1st {
     justify-content: space-between;
     flex: 1;
-    width: 50%;
     border-top-width: 2.5px;
     padding: 1%;
 }
@@ -57,4 +56,24 @@
 .block__element--modRight {
     border-left-width: 2.5px;
     z-index: 2;
+}
+
+@media (max-width: 600px) {
+    .block {
+        flex-direction: column;
+    }
+
+    .block__element--modLeft {
+        border-right-width: 5px;
+        border-bottom-width: 2.5px;
+    }
+    
+    .block__element--modRight {
+        border-left-width: 5px;
+        border-top-width: 2.5px;
+    }
+
+    .block__boxNew {
+        margin-right: -1%;
+    }
 }
