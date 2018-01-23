@@ -2,38 +2,16 @@
   margin: 0px;
   padding: 0px;
 }
-
 h1 {
+  margin-top: 10px;
   text-align: center;
   border: 2px solid black;
   border-bottom: 0px;
+  padding: 10px;
 }
-.boxes {
-  display: flex;
-  flex-direction: row;
-}
-
-.left {
-  border: 2px solid black;
-  border-right: 1px solid black;
-  width: 50%;
-}
-
-.right {
-  border: 2px solid black;
-  border-left: 1px solid black;
-  width: 50%;
-}
-
 p {
   padding: 10px;
 }
-
-h2 {
-  padding-left: 10px;
-  padding-top: 10px;
-}
-
 .new-stamp {
   width: 40px;
   height: 20px;
@@ -42,4 +20,33 @@ h2 {
   text-align: center;
   padding: 5px;
   margin-top: 7px;
+}
+
+h2 {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+/* ------------- FULL BOXES ------------------------------------------*/
+  .boxes {
+    display: flex;
+    flex-direction: row;
+  }
+  .left {
+    border: 2px solid black;
+    border-right: 1px solid black;
+    width: 50%;
+  }
+  .right {
+    border: 2px solid black;
+    border-left: 1px solid black;
+    width: 50%;
+  }
+
+/* ------------- MEDIUM BOXES ------------------------------------------*/
+.boxes {
+  display: flex;
+  flex-direction: row;
+}
+.left {
+
 }
