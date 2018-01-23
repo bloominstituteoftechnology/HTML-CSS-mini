@@ -1,78 +1,62 @@
-p {
-    padding-right:10px;
-    padding-left:5px;
-}
 .header {
-    display: flex;
     width:100%;
     margin-top:10px;
     border:2px solid black;
+    border-bottom: 0px solid black;
+    box-sizing: border-box;
+}
+.header__title {
     text-align:center;
     font-size:2em;
     padding-top:10px;
-    border-bottom: 0px solid black;
+    padding-bottom:10px;
+    font-weight:bold;
 }
-.sub-hed-container {
+
+.placeholderBox {
+    width:50%;
+    float:left;
+    box-sizing: border-box;
+    border: 2px solid black;
     padding-top:10px;
 }
-.side-container {
-    border:2px solid black;
+.placeholderBox--secondary {
+    border-left: none;
 }
-.title {
+.placeholderBox__title {
     border:0px solid blue;
     font-size:1.8em;
     font-weight:bold;
-    padding-left:5px;
+    padding-left:15px;
+    position:relative;
+    top:8px;
 }
-.button {
+.placeholderBox__btn-title {
     float: right;
     padding:10px;
     background-color:grey;
     text-align:center;
 }
-.flex-container, .flex-container-header  {
-    display: flex;
-}
-.flex-container > div {
-    margin: 0px;
-    padding-left:10px;
-}
-.flex-container-header > div {
-    flex-direction: row;
-    width:100%;
-    margin-top:10px;
-    border:2px solid black;
-    text-align:center;
-    font-size:2em;
-    padding-top:10px;
-    padding-bottom:10px;
-    border-bottom: 0px solid black;
-    font-weight:bold;
-    box-sizing: border-box
+.placeholderBox__paragraph {
+    padding-right:10px;
+    padding-left:15px;
+    padding-right:15px;
+    text-align:justify;
 }
 
 
 @media (min-width: 601px) {
-  /*// Some styles to be applied when the view width reaches 600px or greater*/
-    .side-container:last-of-type {
-        border-left:none;
-    }
-    .flex-container > div {
-      width:50%;
-    }
+  /*// Some styles to be applied when the view width reaches 601px or greater*/
 }
 
 @media (max-width: 600px) {
     /*// Some styles to be applied when the view width reaches 600px or lower*/
-    .side-container:last-of-type {
-        border-top:none;
-        border-left:2px solid black;
-    }
-    .flex-container {
-        flex-direction: column;
-    }
-    .flex-container > div {
+    .placeholderBox {
         width:100%;
-        box-sizing: border-box
     }
+    .placeholderBox--secondary {
+        border-left: 2px solid black;
+        border-top: none;
+    }
+    
 }
