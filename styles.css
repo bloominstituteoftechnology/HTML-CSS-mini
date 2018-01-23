@@ -1,0 +1,89 @@
+/* classes */
+.container{
+	display:inline-flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	justify-content:space-between;
+	align-items:flex-start;
+    align-content: flex-start
+}
+
+.items{
+	flex-basis:auto;
+}
+
+.mainHeader {
+    font-size: 32px;
+    font-style: bold;
+    text-align: center;
+}
+
+.boxHeader {
+    font-size: 24px;
+    font-style: bold;
+    text-align: left;
+}
+
+.boxLeftHeader{
+     width : 80%;
+    font-size: 24px;
+    font-style: bold;
+    text-align: left;
+    
+}
+
+.boxLeft {
+    box-sizing: border-box;
+text-align: left;
+    
+    width : 50%;
+    height : 700px;
+    margin : 0px;
+    border-top : 1px;
+    border-bottom : 1px;
+    padding :   10px;
+    border: solid 5px #888f91;
+
+    font-size: 24px;
+    font-style: bold;
+}
+
+.boxRight {
+    box-sizing: border-box;
+
+    width : 50%;
+    height : 700px;
+    margin : 0px;
+    border-top : 1px;
+    border-bottom : 1px;
+    padding :   10px;
+    border: solid 5px #888f91;
+    
+    font-size: 24px;
+    font-style: bold;
+
+}
+
+.newBadgeHeader {
+    display : "flex";  
+    width : 20%;
+    font-size: 20px;
+    font-style: bold;
+    text-align: center;
+    background : #ffffff;
+}
+
+.newBadge{
+    display : "flex";
+    width : 63px;
+    background : #888f91;
+}
+
+.badgePosition {
+    position: absolute;
+    top: 100px;
+    right: 632px;
+    width: 70px;
+    height: 60px;
+
+}
