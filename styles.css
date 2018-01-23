@@ -1,35 +1,50 @@
-.flexwrapper {
+.container {
     display: flex;
     flex-flow: row wrap;
-    border: 3px solid black;
-}
-
-.flexwrapper > * {
-    flex: 1 100%;
+    justify-content: center;
+    align-items: stretch;
+    border: 1.5px solid black;
 }
 
 .header {
+    flex-flow: column wrap;
+    width: 100%;
     text-align: center;
-    border-bottom: 3px solid black;
+    border: 1.5px solid black;
+    margin: 0%;
 }
 
-.newbutton {
+.section {
+    flex-flow: row wrap;
+    text-justify: left;
+    justify-content: flex-start;
+    border: 1.5px solid black;
+    margin: 0%;
+    padding: 1%;
+    justify-content: space-around;
+}
+
+.section__header {
+    display: flex;
+    flex: 1 1 auto;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-right: -1%;
+}
+
+.button {
+    background: grey;
+    border: 0px;
     text-align: center;
-}
-
-.column-1 {
-    text-align: left;
-}
-
-.column-2 {
-    text-align: left;
+    height: 32px
 }
 
 @media all and (min-width: 600px) {
-    .column { flex: 1 auto; }
+    .section { flex-flow: column wrap; flex: 1 1 0; width: 100%; }
+    .button { margin-right: -1%}
 }
 
 @media all and (min-width: 800px) {
-    .column-1 { flex: 1 50%; }
-    .column-2 { flex: 1 50%; }
+    .section { flex-flow: row wrap; flex: 1 1 0; }
+    .button { margin-right: -1%}
 }
