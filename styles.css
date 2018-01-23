@@ -7,26 +7,29 @@ html, body, p {
 
 .header {
   border: solid 2px black;
+  border-bottom: 0px;
   width: 1400px;
   box-sizing: border-box;
   margin: 5px 5px 0px 5px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .content {
   width: 1400px;
   box-sizing: border-box;
   margin: 0px 5px;
+  display: flex;
+  flex-direction: row;
 }
 
 .element {
-  border-left: solid 2px black;
-  border-bottom: solid 2px black; 
-  float: left;
+  border: solid 2px black;
   width: 50%;
   height: 200px;
   box-sizing: border-box;
-  /* padding: 15px; */
+  display: flex;
+  flex-direction: row-reverse;  
 }
 
 .element-content {
@@ -37,11 +40,8 @@ html, body, p {
 .element-new {
   background: grey;
   padding: 10px;
-  float: right;
   box-sizing: border-box;
   margin-top: 10px;
+  height: 40px;
 }
 
-#element-right {
-  border-right: solid 2px black;
-}
