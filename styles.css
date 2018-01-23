@@ -19,7 +19,7 @@ html, body {
   border-bottom: 0px;
   width: 90%;
   box-sizing: border-box;
-  margin: 5px 5px 0px 5px;
+  margin-top: 5px;
   display: flex;
   justify-content: center;
 }
@@ -32,16 +32,16 @@ html, body {
   flex-direction: row-reverse;
 }
 
-.element-last {
-  border-top: 0px;
-}
-
-.element-content {
+.content__panel-text {
   padding: 15px;
   box-sizing: border-box;
 }
 
-.element-new {
+.content__panel--last {
+  border-top: 0px;
+}
+
+.content__panel-new {
   background: grey;
   padding: 10px;
   box-sizing: border-box;
