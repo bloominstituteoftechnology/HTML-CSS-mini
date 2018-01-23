@@ -10,10 +10,6 @@
 	padding: 20px;
 }
 
-h2 {
-	margin: 0px 0px 15px 0px;
-}
-
 .container {
 	display: flex;
 }
@@ -21,14 +17,16 @@ h2 {
 .newContainer {
 	display: flex;
 	flex-direction: row;
-	border-left: solid 4px black;
-	border-bottom: solid 4px black;
+	justify-content: space-between;
 }
 	
 .left-text {
 	display: flex;
 	flex-direction: column;
-  padding: 5px;
+	border-left: solid 4px black;
+	border-bottom: solid 4px black;
+	padding: 5px;
+	padding-right: 0;
 }
 	
 .right-text {
@@ -43,13 +41,10 @@ h2 {
 .new {
 		display: flex;
 		flex-direction: column-reverse;
+		padding: 5px;
+		box-sizing: border-box;
 		background-color: grey;
-		position: absolute right 0;
 		text-align: center;
-		vertical-align: middle;
 		width: 50px;
-		margin: auto;
-		line-height: 30px;
 		height: 30px;
-		float: right;
 	}
