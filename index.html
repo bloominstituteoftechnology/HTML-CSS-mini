@@ -5,7 +5,80 @@
     <!-- Here we reference our styles.css for our page styling -->
     <link rel="stylesheet" href="./styles.css">
   </head>
+  <style>
+    .top {
+      border-style: solid;
+      border-width: 3px 3px 3px 3px;
+      border-color: black;
+      text-align: center;
+    }
+
+    .combined {
+      display: inline-flex;
+    }
+
+    .left-bottom {
+      border-style: solid;
+      border-width: 0px 3px 3px 3px;
+      border-color: black;
+      padding: 10px 20px 10px 20px;
+    }
+
+    .new {
+      background-color: gray;
+      padding: 7px 7px 7px 7px;
+      width: 36px;
+      height: 17px;
+      margin: 0px -20px 0px 0px;
+    }
+
+    .left-top {
+      display: flex;
+      justify-content: space-between;
+      flex-flow: row;
+    }
+
+    .right-top {
+      display: flex;
+    }
+
+    .right-bottom {
+      border-style: solid;
+      border-width: 0px 3px 3px 0px;
+      border-color: black;
+      padding: 10px 20px 10px 20px;
+    }
+  </style>
   <body>
     <!-- This is where you will begin your solution -->
+    <div class= "top">
+      <h1>Header</h1>
+    </div>
+
+    <div class="combined">
+      <div class= "left-bottom">
+        <div class= "left-top">
+        <h3 class="left-header">Placeholder</h3><p class="new">New!</p>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+        Excepteur sint occaecat cupidatat non proident, 
+        sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class= "right-bottom">
+        <div class="right-top">
+        <h3>Placeholder</h3>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          Excepteur sint occaecat cupidatat non proident, 
+          sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+
   </body>
 </html>
