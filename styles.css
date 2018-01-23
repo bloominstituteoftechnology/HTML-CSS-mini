@@ -1,0 +1,55 @@
+body{
+margin:0
+padding: 0;
+}
+h2{
+    dispay: inline-block;
+    margin 5px;
+}
+.header {
+display: block;
+border: solid 2px black;
+text-align: center;
+border-bottom-width: 2.5px;
+padding: 15px;
+margin: -3px;
+}
+
+div{
+width:50%;
+padding: 0px 0 15px 15px;
+box-sizing: border-box;
+float: left;
+border-width: 1px 0px 0px 1px;
+border-color: black;
+border-left: 3px solid #000000;
+display: inline-block;
+
+}
+.left, .right {
+    border: solid black;
+}
+.left{
+border-left: solid 1.0px solid #000000;
+border-right: solid 3px black;
+border-color: black
+box-sizing: border-box;
+
+
+}
+.right{
+    
+    border-left: 1.0px solid #000000;
+    border-right:3px solid #000000;
+}
+p{
+    padding-right: 15px;
+}
+.new {
+    float: right;
+    background-color: gray;
+    padding: 5px 5px 5px 5px;
+    position: absolute;
+    top: 10%;
+    left: 47.5%;
+    } 
