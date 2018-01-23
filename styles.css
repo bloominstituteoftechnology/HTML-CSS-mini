@@ -8,25 +8,28 @@
 
 div {
     width: 50%;
-    display: inline-block;
+    display: inline-flex;
+    flex-direction: column;
     box-sizing: border-box;
     margin: 0;
 }
 
 #left {
+    flex-shrink: 1;
     border-width: 0 1px 2px 2px; 
     border-style: solid;
     border-color: black;
 }
 
 #right{
+    flex-shrink: 1;
     border-width: 0 2px 2px 1px; 
     border-style: solid;
     border-color: black;
 }
 
 #new {
-    float: right;
+    align-self: flex-end;
     background-color: grey;
     width: 60px;
     height: 35px;
@@ -36,6 +39,10 @@ div {
 
 }
 
-h2, p {
+h2 {
+    margin: 15px; 
+} 
+
+p {
     margin: 15px;
 }
