@@ -1,36 +1,35 @@
-h1 {
+.flexwrapper {
+    display: flex;
+    flex-flow: row wrap;
+    border: 3px solid black;
+}
+
+.flexwrapper > * {
+    flex: 1 100%;
+}
+
+.header {
     text-align: center;
-    box-sizing: border-box;
-    border: 3px solid black;
-    width: 100%;
-    margin: 0px;
-    margin-bottom: -3px;
-    padding: 1%;
+    border-bottom: 3px solid black;
 }
 
-#new {
-    float: right;
-    box-sizing: border-box;
-    background-color: grey;
-    margin-right: -2%;
+.newbutton {
+    text-align: center;
 }
 
-.columnleft {
-    display: inline-block;
-    box-sizing: border-box;
-    border: 3px solid black;
-    border-right: 1.5px solid black;
-    width: 50%;
-    margin: 0px;
-    padding: 1%;
+.column-1 {
+    text-align: left;
 }
 
-.columnright {
-    display: inline-block;
-    box-sizing: border-box;
-    border: 3px solid black;
-    border-left: 1.5px solid black;
-    width: 50%;
-    margin: 0px;
-    padding: 1%;
+.column-2 {
+    text-align: left;
+}
+
+@media all and (min-width: 600px) {
+    .column { flex: 1 auto; }
+}
+
+@media all and (min-width: 800px) {
+    .column-1 { flex: 1 50%; }
+    .column-2 { flex: 1 50%; }
 }
