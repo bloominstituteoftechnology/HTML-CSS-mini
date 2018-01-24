@@ -14,7 +14,7 @@ body {
 }
 .header {
   border-width: 3px 3px 0px 3px;
-  width: 100vw;
+  width: 100%;
   height: 75px;
   justify-content: center;
   align-items: center;
@@ -23,7 +23,7 @@ body {
   flex-direction: column;
   padding-left: 17.5px;
   padding-bottom: 3px;
-  width: 100vw;
+  width: 100%;
 }
 .left__top, .right__top {
   flex-direction: row;
@@ -55,10 +55,10 @@ p {
     flex-flow: row wrap;
   }
   .left {
-    width: calc(50vw + 1.5px);
+    width: calc(50% + 1.5px);
   }
   .right {
-    width: calc(50vw - 1.5px);
+    width: calc(50% - 1.5px);
     border-width: 3px 3px 3px 0px;
   }
 }
