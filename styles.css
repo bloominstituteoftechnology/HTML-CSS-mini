@@ -1,0 +1,29 @@
+body{
+  margin: 0; /* removing the default body margin */
+}
+#container-one {
+  display: flex;
+  flex-flow: row wrap;
+}
+.header {
+  display: block;
+  border-style: solid;
+  text-align: center;
+}
+.box {
+  text-align: center;
+  border-style: solid;
+  flex: 1;
+}
+
+@media (min-width: 600px) {
+  .box {
+    flex: 1;
+  }
+}
+
+@media (max-width: 600px) {
+  .box {
+    flex: 1 100%;
+  }
+}
