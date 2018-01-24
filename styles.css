@@ -9,22 +9,22 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
   }
-  h1 {
+  /* h1 {
     margin: auto;
-  }
-  .flex-item-header {
+  } */
+  .flex-container__flex-item-header1 {
     flex: 1;
     display: flex;
   }
-  .headertxt {
+  .flex-container__flex-item-header1-txt {
     margin: auto;
   }
-  .flex-item-container {
+  .flex-container__flex-item {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
-  .flex-item {
+  .flex-container__flex-item-subdiv {
     flex: 1;
     display: flex;
     flex-wrap: wrap;
@@ -35,7 +35,7 @@ body {
     flex: 1;
     padding: 2px;
   }
-  #modal {
+  .flex-container__flex-item-subdiv-modal {
     margin: auto;
     justify-content: space-around;
     background-color: gray;
@@ -43,7 +43,7 @@ body {
     height: 40px;
     display: flex;
   }
-  #modaltxt {
+  .flex-container__flex-item-subdiv-modal-modaltxt {
     margin: auto;
   }
   p {
