@@ -1,0 +1,68 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.header
+{
+    border: solid black 3px;
+}
+
+.header__title
+{
+    font-size: 36px;
+    text-align: center;
+    padding: 15px;
+}
+
+.content-container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.post
+{
+    display: flex;
+    border: solid black 2px;
+    flex-direction: column;
+}
+
+.post__title
+{
+    display: flex;
+    font-size: 23px;
+    padding-left: 10px;
+
+}
+
+.post__copy
+{
+    display: flex;
+    padding: 15px;
+}
+
+.new
+{
+    display: flex;
+    background-color: gray;
+    padding: 10px;
+    align-self: flex-end;
+    position: absolute;
+    top: 85px;
+}
+
+.new--red-label
+{
+    color: red;
+}
+
+@media (min-width: 900px) 
+{
+    .content-container
+    {
+        display: flex;
+        flex-direction: row;
+    }
+}
