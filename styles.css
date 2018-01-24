@@ -59,6 +59,6 @@ p {
   }
   .right {
     width: calc(50vw - 1.5px);
-    border-width: 3px 3px 3px 0px
+    border-width: 3px 3px 3px 0px;
   }
 }
