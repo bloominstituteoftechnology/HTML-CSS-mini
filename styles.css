@@ -1,14 +1,38 @@
-h1 {
-  text-align: center;
-  border: 1px solid black;
-  margin: 0;
-  border-bottom: 0px;
+.page {
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.para{
-  box-sizing: border-box;
+.head {
+  width: 100%;
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+
+.firstPara{
+  width: 49%;
+  border-right: 2px solid black;
+  padding: 20px;
+  padding-left: 0px;
+}
+
+.secondPara {
+   width: 45%;
+   padding: 20px 0 0 50px;
+}
+
+h3 {
+   width: 95%;
+   display: inline-block;
+ }
+
+h4 {
   display: inline-block;
-  width: 50%;
+  width: 35px;
   border: 1px solid black;
-  padding-left: 10px;
+  padding: 5px;
+  background-color: grey;
+  position: absolute;
 }
