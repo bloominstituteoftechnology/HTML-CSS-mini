@@ -1,0 +1,40 @@
+.block { 
+    display: inline-block;
+    box-sizing: border-box;
+	width: 100%;
+	height: 50%;
+    padding: 10px;
+    border-style: solid;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 0px;
+    border-style: solid;
+    margin: 0px;
+    padding: 10px;
+}
+
+.block:last-of-type {
+    border-width: 0px 2px 2px 2px;
+}
+
+#new {
+    text-align: center;
+    float: right;
+    width: 60px;
+    height: 35px;
+    margin-right: -10px;
+    margin-top: -5px;
+    padding-top: 10px;
+    background-color: gray;
+}
+
+@media (min-width: 600px) {
+    .block {
+        width: 50%;
+    }
+    .block:last-of-type{
+        border-width: 2px 2px 2px 0px;
+    }
+}
