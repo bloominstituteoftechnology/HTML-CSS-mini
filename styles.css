@@ -39,8 +39,7 @@ h1 {
   position: absolute;
 }
 
-.left {
-  order: 0;
+.block {
   width: 50%;
   box-sizing: border-box;
   padding-left: 20px;
@@ -48,12 +47,13 @@ h1 {
   margin-right: -1px;
 }
 
-.right {
+.block--left-paragraph {
+  order: 0;
+  margin-right: -1px;
+}
+
+.block--right-paragraph {
   order: 2;
-  width: 50%;
-  box-sizing: border-box;
-  padding-left: 20px;
-  padding-right: 20px;
   margin-left: -1px;
 }
 
