@@ -17,7 +17,7 @@ h1 {
 }
 .left, .right {
   padding: 20px 0px 5px 17.5px;
-  width: 100vw;
+  width: 100%;
 }
 h2 {
   display: inline;
@@ -43,12 +43,12 @@ p {
 @media (min-width: 600px){
   .left {
     float: left;
-    width: calc(50vw + 1.5px);
+    width: calc(50% + 1.5px);
     border-width: 3px;
   }
   .right {
     float: right;
-    width: calc(50vw - 1.5px);
+    width: calc(50% - 1.5px);
     border-width: 3px 3px 3px 0px;
   }
 }
