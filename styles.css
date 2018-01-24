@@ -1,0 +1,27 @@
+h1, div.block {
+    border: 2px solid black;
+    padding:20px;
+    margin:0;
+    box-sizing:border-box;
+}
+div.block {
+    width:50%;
+    float: left;
+    position:relative;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    margin-top:0;
+}
+p {
+    margin-bottom:0;
+}
+.block-flag {
+    position:absolute;
+    top:10px;
+    right:0;
+    background-color:gray;
+    padding:10px;
+}
