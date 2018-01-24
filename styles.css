@@ -1,0 +1,38 @@
+.top {
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: black;
+    text-align: center;
+    }
+    
+    .combined {
+    display: inline-flex;
+    }
+    
+    .left-bottom {
+    border-style: solid;
+    border-width: 0px 3px 3px 3px;
+    border-color: black;
+    padding: 8px 20px 10px 20px;
+    }
+    
+    .new {
+    background-color: rgb(223, 210, 210);
+    padding: 7px 7px 7px 7px;
+    width: 36px;
+    height: 17px;
+    margin: 0px -20px 0px 0px;
+    }
+    
+    .left-top {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+    }
+    
+    .right-bottom {
+    border-style: solid;
+    border-width: 0px 3px 3px 0px;
+    border-color: black;
+    padding: 10px 20px 10px 20px;
+    }
