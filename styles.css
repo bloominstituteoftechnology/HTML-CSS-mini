@@ -5,40 +5,17 @@ body {
 
 h1 {
   text-align: center;
+  font-size: 36px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+.header {
+  flex-basis: 100%;
+  order: -1;
+  align-items: flex-start;
   border-bottom-style: solid;
   border-bottom-width: 2px;
-  margin-bottom: -2px;
-}
-
-.flag {
-  right: 50%;
-  background: grey;
-  width: 40px;
-  text-align: center;
-  margin-right: 14px;
-  top: 50px;
-}
-
-.all {
-  box-sizing: border-box;;
-  border-style: solid;
-  border-width: 2px;
-  position: absolute;
-}
-
-.left {
-  display: inline-block;
-  width: 49%;
-  border-right-style: solid;
-  border-right-width: 2px;
-  float: left;
-}
-
-.right {
-  display: inline-block;
-  width: 49%;
-  margin-left: -2px;
-  float: right;
 }
 
 .flag {
@@ -48,6 +25,39 @@ h1 {
   text-align: center;
   width: 34px;
   height: 18px;
+  margin: 0px -20px 0px 0px;
   padding: 8px 8px 8px 8px;
+  float: right;
+}
+
+.all {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-style: solid;
+  border-width: 2px;
   position: absolute;
+}
+
+.left {
+  order: 0;
+  width: 50%;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: -1px;
+}
+
+.right {
+  order: 2;
+  width: 50%;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: -1px;
+}
+
+.middle {
+  background-color: black;
+  width: 2px;
 }
