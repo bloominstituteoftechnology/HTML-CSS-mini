@@ -10,7 +10,7 @@ header {
   border-bottom: 2px solid black;
 }
 
-.box {
+.block {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -20,24 +20,24 @@ header {
   border-left: 4px solid black;
 }
 
-.box div {
+.block div {
   width: 50%;
   padding: 20px;
 }
 
-#placeholder1 {
+.block__placeholder1 {
   border-right: 2px solid black;
 }
 
-#placeholder2 {
+.block__placeholder2 {
   border-left: 2px solid black;
 }
 
-#new {
+.block__placeholder1__new {
   background-color: grey;
   width: 40px;
   padding: 10px;
   position: absolute;
-  right: 50.10%;
+  right: 50.05%;
   top: 10%;
 }
