@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.div1 {
+    width: 50%;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    box-sizing: border-box;
+    margin: 0px;
+    float: left;
+}
+
+.div2 {
+    width: 50%;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    box-sizing: border-box;
+    margin: 0px;
+    float: left;
+}
+
+h2 {
+    display: inline-block;
+    margin: 5px;
+}
+
+#modal {
+    float: right;
+    width: 50px;
+    height: 30px;
+    background-color: grey;
+    margin-top: 5px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+p {
+    margin: 5px;
+}
