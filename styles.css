@@ -1,0 +1,37 @@
+@import "./components/article.css";
+
+.main {
+  border: 4px solid black;
+  display: flex;
+  flex-direction: column;
+}
+.head__title {
+  text-align: center;
+  font-size: 2.8em;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+}
+@media (min-width: 584px) {
+  .section {
+    flex-direction: row;
+  }
+  .article:first-child {
+    border-right: 4px solid black;
+  }
+  .head__title {
+    font-size: 4em;
+  }
+  .article__content {
+    font-size: 1.5em;
+  }
+  .article__title {
+    font-size: 3em;
+  }
+}
