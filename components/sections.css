@@ -1,9 +1,6 @@
-*{
-	margin: 0;
-}
-@media(max-width: 600px) {
-	.Section--half {
-	border: 5px solid;
+@media (max-width: 500px) {
+	.Section {
+		box-sizing: content-box;
 	}
 }
 .Section h1 {
@@ -31,4 +28,5 @@
 #NewPost {
 	background-color: gray;
 	float: right;
+	padding: 5px;
 }
