@@ -1,3 +1,8 @@
+@media (max-width: 500px) {
+	.Section {
+		box-sizing: content-box;
+	}
+}
 .Section h1 {
 	text-align: center;
 }
@@ -23,4 +28,5 @@
 #NewPost {
 	background-color: gray;
 	float: right;
+	padding: 5px;
 }
