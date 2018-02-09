@@ -1,0 +1,18 @@
+.Section .box {
+    border: solid 2px;
+    padding: 5px;
+    width: 50%;
+}
+
+.header {
+    border: solid 2px;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+}
+
+.Section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
