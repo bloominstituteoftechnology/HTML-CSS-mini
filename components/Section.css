@@ -1,0 +1,34 @@
+.Section {
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  border: 2px solid rgb(0, 0, 0);
+} 
+.Section--flex-container {
+  display: flex;
+}
+.Section--padding {  
+  padding: 20px;
+}
+
+.Section--full {
+  flex-basis: 100%;
+  text-align: center;
+}
+.Section--half {
+  flex-basis: 50%;
+}
+
+.Section__h1 {
+  font-size: 36px;
+}
+.Section__h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.Section__badge {
+  float: right;
+  padding: 10px;
+  margin-right: -20px;
+  background-color: #cfcfcf;
+}
