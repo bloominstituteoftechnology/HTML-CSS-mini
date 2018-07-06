@@ -1,0 +1,109 @@
+.leftSide {
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    padding-right: 0px;
+    border: solid black 3px;
+    border-left: 0px;
+    height: 300px;
+}
+
+.rightSide {
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    padding-right: 0px;
+    border: solid black 3px;
+    border-right: 0px;
+    border-left: 0px;
+    height: 300px;
+}
+
+.pageHeader {
+    text-align: center;
+}
+
+.leftSide__modal {
+    float: right;
+    width: 70;
+    height: 35px;
+    border: solid black 1px;
+    border-right: 0px;
+    background-color: grey;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.leftSide__modalText {
+    margin: 7px 7px 5px 3px;
+}
+
+h2 {
+    display: inline-block;
+}
+
+.pageBorder {
+    border: solid black 3px;
+    border-bottom: 0px;
+}
+
+@media (max-width: 900px) {
+    .leftSide {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 10px;
+        padding-right: 0px;
+        border: solid black 3px;
+        border-left: 0px;
+        border-right: 0px;
+        height: 300px;
+    }
+    
+    .rightSide {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 10px;
+        padding-right: 0px;
+        border: solid black 3px;
+        border-right: 0px;
+        border-left: 0px;
+        border-top: 0px;
+        height: 300px;
+    }
+    
+    .pageHeader {
+        text-align: center;
+    }
+    
+    .leftSide__modal {
+        float: right;
+        width: 70;
+        height: 35px;
+        border: solid black 1px;
+        border-right: 0px;
+        background-color: grey;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    
+    .leftSide__modalText {
+        margin: 7px 7px 5px 3px;
+    }
+    
+    h2 {
+        display: inline-block;
+    }
+    
+    .pageBorder {
+        border: solid black 3px;
+        border-bottom: 0px;
+    }
+}
