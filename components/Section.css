@@ -1,0 +1,16 @@
+.Section {
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.Section--full {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+.Section--half {
+  width: 50%;
+  border:1px solid black;
+}

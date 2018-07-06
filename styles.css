@@ -1,0 +1,30 @@
+@import './components/Lists.css';
+@import './components/Section.css';
+
+body {
+  margin: 0;
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+}
+.child{
+  width:50%;
+  margin:auto;
+  border: 5px thick black;
+  padding: 20px;
+}
+.Section__flag{
+  margin-left: auto;
+  height: 30px;
+  background-color: grey;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .parent{
+    flex-wrap: wrap;
+  }
+}
+
+
