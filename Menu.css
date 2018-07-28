@@ -1,0 +1,12 @@
+.Menu {
+    list-style-type: none;
+}
+
+.Menu_item {
+    cursor: pointer;
+}
+
+.Menu--horizontal .Menu_item{
+    display: inline-flex;
+    flex: row;
+}
