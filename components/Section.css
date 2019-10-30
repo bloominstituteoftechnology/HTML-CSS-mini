@@ -1,0 +1,57 @@
+.Section {
+  box-sizing: border-box;
+  background: gray;
+  padding: 20px;
+  border: solid black;
+}
+
+.Container {
+  display: flex;
+  flex-direction: row;
+}
+
+.Section--full {
+  order: 0;
+  width: 100%;
+  text-align: center;
+  border-width: 2px 2px 0px 2px;
+}
+
+.Section--left {
+  order: 0;
+  width: 50%;
+  border-width: 2px 0px 2px 2px;
+  position: relative;
+}
+
+.Section--right {
+  order: 1;
+  width: 50%;
+  border-width: 2px;
+}
+
+.Section__flag {
+  background: tomato;
+  position: absolute; 
+  right: 0;
+  top: 30px;
+  padding: 10px;
+}
+
+@media (max-width: 600px) {
+  .Section--half {
+    width: 100%;
+  }
+
+  .Section--left {
+    border: 2px solid black;
+  }
+
+  .Section--right {
+    border-top: none;
+  }
+
+  .Container {
+    flex-wrap: wrap;
+  }
+}
