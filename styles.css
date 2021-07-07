@@ -1,0 +1,12 @@
+h1 { 
+    position : relative;  
+    border : 2px solid black;  
+    padding : 5px; 
+    }
+    div {
+        width: 300px;
+        border: 2px solid black;
+        padding: 25px;
+        margin: 0px;
+        float: left;
+    }
